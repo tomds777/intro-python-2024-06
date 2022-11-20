@@ -1,0 +1,71 @@
+# Fundamentals of Python
+
+```{r echo=FALSE}
+# ensures embedding with `xfun::embed_file` works.
+# include only once before you embed some file.
+xfun::pkg_load2(c("htmltools", "mime"))
+```
+
+
+Let's get started with the course contents!
+In this first part of the course, we will give an introduction into programming with Python in general.
+You will get to know the fundamentals of Python and apply them in small exercises.
+After you got up to speed, we introduce Jupyter Notebooks --- an interactive environment to write, execute, and comment, and share Python code and results.
+
+## Lecture Notes
+
+::: slide-deck
+**Part 1: Fundamentals of Python**
+
+::: slides
+
+```{r echo=FALSE}
+xfun::embed_file("slides/01-lecture-slides-intro-python.pdf", text = "Slides")
+```
+:::
+:::
+
+
+## Application Exercise During the Course
+
+:::: application-exercise
+**Vectors, Loops, and Functions**
+
+Please open Google Colab for this exercise through the following link.
+After opening the Google Colab instance, save a copy to your own Google drive.
+That's how you will retain your copy with your own code.
+
+::: source
+[Exercise Template on Google Colab](https://colab.research.google.com/drive/1hm_UzeSpDc1PMYJu01PvoM5Akj3rLevm?usp=sharing){target="_blank"}
+:::
+
+<!-- Note: Comment the solutions if you don't want to show them. -->
+<!-- After the course unit, you can uncomment them -->
+
+<!-- ::: source -->
+<!-- [Solution](insert-link-here){target="_blank"}  -->
+<!-- ::: -->
+:::
+
+
+
+## Additional Application Exercises for Self-Study
+
+Ready for some more hands-on exercises? Here you go --- four coding challenges that you can solve after our workshop.
+
+:::: application-exercise
+**More Advanced Loops, Strings, and Lists**
+
+
+::: source
+[Exercise Template on Google Colab](https://colab.research.google.com/drive/1Gf3VBRy1oeqFYkPjtbfrP61yZzHw1r9-?usp=sharing){target="_blank"} 
+:::
+
+<!-- Note: Comment the solutions if you don't want to show them. -->
+<!-- After the course unit, you can uncomment them -->
+
+::: source
+[Solution](https://colab.research.google.com/drive/10VVhlV23MHX5-awtUUCBdeSXkAt7DdQ2?usp=sharing){target="_blank"}
+:::
+:::
+

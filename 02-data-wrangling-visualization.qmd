@@ -1,0 +1,64 @@
+# Data Wrangling & Visualization
+
+You have just learned the basics of working with Python. Now, let's lean how to wrangle data and visualize it!
+
+This second part of the course, covers the external libraries `numpy` and `pandas` to work with data. Both are essential workhorses of data wrangling with Python.
+`numpy` is a library for scientific computing and many other libraries are built on top of this one. `pandas` is a data analysis and manipulation tool and the best choice when working with tabular data. At the end of this lecture we will also introduce and use `matplotlib` for simple plotting.
+
+## Lecture Notes
+
+::: slide-deck
+**Part 2: Libraries, Data Frames, Data Wrangling, and Visualization**
+
+::: slides
+```{r echo=FALSE}
+xfun::embed_file("slides/02-lecture-slides-intro-python.pdf", text = "Slides")
+```
+:::
+:::
+
+
+## Application Exercise During the Course
+
+:::: application-exercise
+**Data Wrangling and Plotting**
+
+Please open Google Colab for this exercise through the following link.
+After opening the Google Colab instance, save a copy to your own Google drive.
+That's how you will retain your copy with your own code.
+
+::: source
+[Exercise Template on Google Colab](https://colab.research.google.com/drive/1XIvXGCxBOgUAlK072rfJTRmolfcNoEmE?usp=sharing){target="_blank"}
+:::
+
+<!-- Note: Comment the solutions if you don't want to show them. -->
+<!-- After the course unit, you can uncomment them -->
+
+<!-- ::: source -->
+<!-- [Solution](insert-link-here){target="_blank"}  -->
+<!-- ::: -->
+:::
+
+
+
+## Additional Application Exercises for Self-Study
+
+Excited for more data wrangling and visualization? 
+Check out the following additional exercises that let you visualize AirBnB data from Berlin.
+
+:::: application-exercise
+**Data Wrangling and Plotting with AirBnB data**
+
+
+::: source
+[Exercise Template on Google Colab](https://colab.research.google.com/drive/1bztgRbN9ciZ99qHc07H6cix299XyZKab?usp=sharing){target="_blank"} 
+:::
+
+<!-- Note: Comment the solutions if you don't want to show them. -->
+<!-- After the course unit, you can uncomment them -->
+
+::: source
+[Solution](https://colab.research.google.com/drive/1Z5rN5Y6pk-82-ToKBtPXWKRlaiatQCFx?usp=sharing){target="_blank"}
+:::
+:::
+

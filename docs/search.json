@@ -2,78 +2,99 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Introduction to Programming",
+    "title": "Introduction to Data Science with Python",
     "section": "",
-    "text": "Welcome to the course website for\nIntroduction to Data Science with R and Tidyverse\noffered for GRADE Brain and other GRADE Centers at Goethe University in January 2023. This website serves as the central repository for all course materials. Here, you will find all slides, lecture materials, and links to your online development environment.\n\n\nMost academic fields require proficiency in at least one data-centered analysis tool. For many, the R programming language has become the tool of choice. However, the first steps in coding can be intimidating and discouraging—especially if you have never worked with a programming language before. This course aims at providing a results-oriented, applied, and hands-on introduction to the most important parts of a Data Science project in R. We will not only introduce the libraries and frameworks necessary for your analysis, but also focus on teaching you the implementation and application of those tools with small examples that you can work on yourself.\nOur goal is to show you the scope of possibilities within R and leave you with the impression that you can confidently implement your own empirical projects in R. We will focus on the Tidyverse ecosystem, a consistent and intuitive framework for building your data analysis from start to finish. After the successful completion of this course, you know how to apply the basic Tidyverse tools for common Data Science tasks in R—primarily data wrangling, data visualization, and results communication.\n\n\n\nWe aim this course at beginners who are either entirely new to R as a programming language and/or want to learn about the Tidyverse ecosystem. The course covers four primary areas of the typical data science process and introduces the respective tidyverse tools:\n\nPlotting with ggplot2\nData wrangling with dplyr\nCommunicating your results with R Markdown\nRegressions with tidymodels\n\nWe will not cover statistical or theoretical concepts in this course, as the focus will lie on applied coding.\n\n\n\nWe will let you eat cake first. What does that mean? Many programming courses start with the absolute basics — variable types, syntax, loops, etc. Those are important but quite dull in the beginning. Instead of monotonously walking you through those, we follow a different teaching philosophy.\nEach topic will start with a very friendly and sometimes a bit complicated cake. And you will dive right into it by executing and adapting the code for that “data science cake.”\nFor example, we will show you an advanced visualization right at the beginning of the course and focus on what is possible eventually. While this might appear intimidating at first (“how should I ever be able to code that from scratch?”), we will walk you through the steps and introduce the methods to get there during the course.\nThe course will alternate between short introductions to a concept or method and small do-it-yourself coding exercises. In between the three sessions, you are encouraged to work on provided exercises that further deepen your understanding.\n\n\n\nThis course is a beginner-friendly course. You do not need prior coding experience. But you are also more than welcome to participate if you are an experienced R user but want to learn more about the Tidyverse.\nYou will need an RStudio Cloud account. RStudio Cloud is a very convenient Integrated Development Environment, where we provide you with all necessary code to follow the course and work with small application exercises on your own.\nBy avoiding to install RStudio locally during the course, we can start right away with the more critical course content. If you already have set up a local installation of RStudio, you are, of course, more than welcome to use that instead. In this case, download the source files linked in the respective application exercises. Note that you won’t need to set anything up if you use RStudio Cloud.\nSince we do not want to waste precious time on the technical setup, we will use the RStudio Cloud as a simple—and already set up—development environment. We will send out detailed instructions and an invitation link in advance.\n\n\n\nWe will meet on three Tuesday evenings from 6:00 - 8:00 p.m. Please access the course via this Zoom link or the meeting ID 933 0794 1729 and passcode 692604.\n\n\n\nPart\nDate\nTime\nVideo Recording\n\n\n\n\n1\n12.01.2023\n18:00 - 20:00\nLink will follow here\n\n\n2\n19.01.2023\n18:00 - 20:00\nLink will follow here\n\n\n3\n26.01.2023\n18:00 - 20:00\nLink will follow here\n\n\n\nWe want you to make your hands dirty — that means we want you to code! Just following along fancy slides won’t magically transfer the skill of coding to you. But you actively engaging with the course content in your development environment will more likely do just that.\nThat’s why we need you to prepare accordingly:\n\nTry to follow the course with two screens or two devices (one for Zoom and the slides, and one for your browser with RStudio Cloud)\nPlease create an RStudio Cloud account before the first class. We have sent you a link to access all exercises on RStudio Cloud. Since we want you to start coding very early on in the first class, please ensure that you can access those course materials on RStudio Cloud before our first meeting.\n\nIf you have any questions, please reach out to one of us through the e-mail addresses on the bottom of this page.\n\n\n\nThis workshop alternates between lecture-style presentations and application exercises. In those hands-on exercises, you will actively try out the discussed tools and techniques in Zoom breakout rooms. We aim to adhere to the following schedule. Depending on our progress, we may discuss some parts a bit earlier or later during the course.\n\n\n\n\n\n\n\n\n\n\nPart\nDate\nTitle\nType\nLecturer\n\n\n\n\n1\n12.01.\nWelcome\nLecture\nLara\n\n\n1\n12.01.\nFirst data visualization: UN Votes\nApplication Exercise\n\n\n\n1\n12.01.\nMeet the programming toolkit\nLecture\nKarlo\n\n\n1\n12.01.\nThe Bechdel Test + R Markdown\nApplication Exercise\n\n\n\n2\n12.01.\nData and visualization\nLecture\nLara\n\n\n2\n12.01.\nVisualizing data with ggplot2\nLecture\nLara\n\n\n2\n19.01.\nVisualizing categorical data\nLecture\nLara\n\n\n2\n19.01.\nStarWars + Dataviz\nApplication Exercise\n\n\n\n3\n19.01.\nTidy data\nLecture\nKarlo\n\n\n3\n19.01.\nGrammar of data wrangling\nLecture\nKarlo\n\n\n3\n19.01.\nWorking with a single data frame\nLecture\nLara\n\n\n3\n19.01.\nHotels + Data wrangling\nApplication Exercise\n\n\n\n3\n26.01.\nWorking with multiple data frames\nLecture\nKarlo\n\n\n4\n26.01.\nData types\nLecture\nKarlo\n\n\n4\n26.01.\nImporting data\nLecture\nLara\n\n\n4\n26.01.\nNobels + Sales + Data import\nApplication Exercise\n\n\n\n5\n26.01.\nFitting and interpreting models\nLecture\nLara\n\n\n\n\n\n\nThe course is self-contained, and you will most likely get all the necessary information for the application exercises from the slides. If you want to read more about given topics, we provide links to chapters in open source Data Science/Tidyverse/R textbooks. You will find the links on the following pages right beside the link to each chapter’s slides.\n\nWe suggest two textbook references:\n\nR4DS: Wickham, H., Grolemund, G. (2017), “R for Data Science: Import, Tidy, Transform, Visualize, and Model Data”, available at r4ds.had.co.nz\nIMS: Çetinkaya-Rundel, M., Hardin, J. (2022), “Introduction to Modern Statistics”, available at openintro-ims.netlify.app\n\n\n\n\n\n\nFeel free to reach out to us by e-mail if you have any questions before, during, or after the course:\n\nLara Zaremba, M.Sc., International Digital Development Trainee and former R Teacher and Course Designer at TechAcademy e.V., send me an e-mail\nKarlo Lukic, M.Sc., PhD Student in Quantitative Marketing, former R Teacher and Course Designer at TechAcademy e.V., send me an e-mail\n\n\n\n\n\nThis online work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International. Visit here for more information about the license.\n\n\n\n\nThe course is built upon material from datasciencebox.org by Mine Çetinkaya-Rundel.\nThanks to the #rstats education community who have made numerous suggestions for this resource, Lee Suddaby and Zeno Kujawa, for converting the homework assignments to learnr tutorials and Müge Çetinkaya for the hex logo!\nThis website is built with bookdown, the lovely icons by icons8, and none of this would be possible without the tidyverse."
+    "text": "Welcome to the course website for\nIntroduction to Data Science with Python\noffered at EBS Business School on December 6, 2022. This website serves as the central repository for all course materials. Here, you will find all slides, lecture materials, and links to your online development environment.\n\n\nData analysis plays a critical role in many academic disciplines, and the Python programming language has become one of the standard tools within the Data Science community. This course will introduce programming with Python and how to use it for data analysis. After successfully completing this course, you will be able to understand the fundamentals of the Python programming language. This skill set includes basic data analysis by data wrangling, data visualization, and implementing simple statistical models in Python.\nOur goal is to show you the scope of possibilities within Python and leave you with the impression that you can confidently implement your own empirical projects in Python.\n\n\n\nThis course aims at Python beginners. Hence, we will cover the fundamentals of programming and Python, such as variables, loops, and logic statements, before we dive into the topic of Data Science. This course will not cover deeper statistical or theoretical concepts as we focus on applied coding.\nThis course introduces:\n\nSyntax and basics of Python\nHow to use Jupyter Notebooks as a development environment\nData analysis, data wrangling, and data visualization using numpy, pandas and matplotlib\nIntroduction to implementing simple statistical models in Python with scikit-learn\n\n\n\n\nThis course is a beginner-friendly course. You do not need prior coding experience. But you are also more than welcome to participate if you are an experienced R user but want to learn more about the Tidyverse.\nYou will need an RStudio Cloud account. RStudio Cloud is a very convenient Integrated Development Environment, where we provide you with all necessary code to follow the course and work with small application exercises on your own.\nBy avoiding to install RStudio locally during the course, we can start right away with the more critical course content. If you already have set up a local installation of RStudio, you are, of course, more than welcome to use that instead. In this case, download the source files linked in the respective application exercises. Note that you won’t need to set anything up if you use RStudio Cloud.\nSince we do not want to waste precious time on the technical setup, we will use the RStudio Cloud as a simple—and already set up—development environment. We will send out detailed instructions and an invitation link in advance.\n\n\n\nWe will meet in person on December 6, 2022 at EBS Business School in Oestrich-Winkel. The course takes place between 9:00 and 17:00, with a lunch and coffee breaks in between. We encourage you to attend in person, which makes the interaction and troubleshooting on your computer easier. However, if you cannot attend personally, you can join the course via this Zoom-Link.\nWe want you to make your hands dirty — that means we want you to code! Just following along fancy slides won’t magically transfer the skill of coding to you. But you actively engaging with the course content in your development environment will more likely do just that.\nThat’s why we need you to prepare accordingly: Please ensure that you have access to Google Colab before the course. We will use Google Colab for the coding parts, such that we can use Python without (sometimes time-consuming) pre-configuration or installation on your machine. To use Google colab, you need a Google account (same account which is used for Gmail, YouTube, etc.)\nIf you have any questions, please reach out to one of us through the e-mail addresses on the bottom of this page.\n\n\n\nThis workshop alternates between lecture-style presentations and application exercises. In those hands-on exercises, you will actively try out the discussed tools. Our one-day course consists of four parts interrupted by lunch and coffee breaks\n\n\n\n\n\n\n\n\nTime\nPart\nDetails\n\n\n\n\n9:00\nCourse Part 1\nCourse Introduction and Fundamentals of Python\n\n\n10:30\nBreak\nCoffee\n\n\n11:00\nCourse Part 2\nFundamentals of Python (cont’d)\nData wrangling and visualizations using pandas and matplotlib\n\n\n12:30\nBreak\nLunch\n\n\n13:30\nCourse Part 3\nData wrangling and visualizations using pandas and matplotlib (cont’d)\n\n\n15:00\nBreak\nCoffee\n\n\n15:30\nCourse Part 4\nAdvanced visualizations with seaborn, modeling with scikit-learn\n\n\n17:00\nEnd\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFeel free to reach out to us by e-mail if you have any questions before, during, or after the course:\n\nLazaros Papadopoulos, Ph.D. candidate, Data Science in Accounting, Goethe University Frankfurt, send me an email\nManuel Mair am Tinkhof, Software Developer at Prime Capital AG, send me an email\n\nPlease reach out to Lukas Jürgensmeier (send me an email) if you have any questions regarding the course administration.\n\n\n–>\n\n\n\n\n\n\nThanks to Felix Schneider (Github), who initially developed this course and granted permission adapt and use the course materials."
   },
   {
-    "objectID": "00-demo.html",
-    "href": "00-demo.html",
-    "title": "1  Demo of Custom CSS Features",
+    "objectID": "01-fundamentals-of-python.html",
+    "href": "01-fundamentals-of-python.html",
+    "title": "1  Fundamentals of Python",
     "section": "",
-    "text": "This section highlights the customized environments that you can use to visually separate external material from the text body."
+    "text": "Let’s get started with the course contents! In this first part of the course, we will give an introduction into programming with Python in general. You will get to know the fundamentals of Python and apply them in small exercises. After you got up to speed, we introduce Jupyter Notebooks — an interactive environment to write, execute, and comment, and share Python code and results."
   },
   {
-    "objectID": "00-demo.html#slide-decks",
-    "href": "00-demo.html#slide-decks",
-    "title": "1  Demo of Custom CSS Features",
-    "section": "1.1 Slide Decks",
-    "text": "1.1 Slide Decks\nIf you use slide decks, link to them here.\n\nUnit 2 - Deck 1: Data and visualization\n\nSlides"
+    "objectID": "01-fundamentals-of-python.html#lecture-notes",
+    "href": "01-fundamentals-of-python.html#lecture-notes",
+    "title": "1  Fundamentals of Python",
+    "section": "1.1 Lecture Notes",
+    "text": "1.1 Lecture Notes\n\nPart 1: Fundamentals of Python\n\n\n\nSlides"
   },
   {
-    "objectID": "00-demo.html#readings",
-    "href": "00-demo.html#readings",
-    "title": "1  Demo of Custom CSS Features",
-    "section": "1.2 Readings",
-    "text": "1.2 Readings\n\nWe suggest two textbook references:\n\nR4DS: Wickham, H., Grolemund, G. (2017), “R for Data Science: Import, Tidy, Transform, Visualize, and Model Data”, available at r4ds.had.co.nz\nIMS: Çetinkaya-Rundel, M., Hardin, J. (2022), “Introduction to Modern Statistics”, available at openintro-ims.netlify.app"
+    "objectID": "01-fundamentals-of-python.html#application-exercise-during-the-course",
+    "href": "01-fundamentals-of-python.html#application-exercise-during-the-course",
+    "title": "1  Fundamentals of Python",
+    "section": "1.2 Application Exercise During the Course",
+    "text": "1.2 Application Exercise During the Course\n\nVectors, Loops, and Functions\nPlease open Google Colab for this exercise through the following link. After opening the Google Colab instance, save a copy to your own Google drive. That’s how you will retain your copy with your own code.\n\nExercise Template on Google Colab"
   },
   {
-    "objectID": "00-demo.html#application-exercises",
-    "href": "00-demo.html#application-exercises",
-    "title": "1  Demo of Custom CSS Features",
-    "section": "1.3 Application Exercises",
-    "text": "1.3 Application Exercises\n\nStarWars + Dataviz\nPlease open your RStudio Cloud for this exercise.\n\nExercise Template"
+    "objectID": "01-fundamentals-of-python.html#additional-application-exercises-for-self-study",
+    "href": "01-fundamentals-of-python.html#additional-application-exercises-for-self-study",
+    "title": "1  Fundamentals of Python",
+    "section": "1.3 Additional Application Exercises for Self-Study",
+    "text": "1.3 Additional Application Exercises for Self-Study\nReady for some more hands-on exercises? Here you go — four coding challenges that you can solve after our workshop.\n\nMore Advanced Loops, Strings, and Lists\n\nExercise Template on Google Colab\n\n\n\n\nSolution"
   },
   {
-    "objectID": "00-demo.html#cloud-ide-link",
-    "href": "00-demo.html#cloud-ide-link",
-    "title": "1  Demo of Custom CSS Features",
-    "section": "1.4 Cloud IDE Link",
-    "text": "1.4 Cloud IDE Link\n\nThe RStudio Cloud workspace containing the application exercises is here. If you haven’t already registered for RStudio Cloud and joined the workspace, please do so now. Be sure to register through the link we sent to you via e-mail since we purchased an RStudio Cloud premium version for this course.\n\nNote: if you want to exchange the title “RStudio Cloud:”, e.g., to “Google Colab”, change the tag .rstudio-cloud:before in the file css/custom-environments.css."
-  },
-  {
-    "objectID": "00-demo.html#nested-environments",
-    "href": "00-demo.html#nested-environments",
-    "title": "1  Demo of Custom CSS Features",
-    "section": "1.5 Nested environments",
-    "text": "1.5 Nested environments\n\nThe Bechdel Test + R Markdown\nPlease open your RStudio Cloud for this exercise.\n\nExercise template\n\n\n\n\n\nThis exercise uses data from the following FiveThirtyEight story on the Bechdel Test:\nHickey, W. (2014, April 1): The Dollar-And-Cents Case Against Hollywood’s Exclusion of Women, FiveThirtyEight.com\n\n\nVideo"
-  },
-  {
-    "objectID": "00-demo.html#labs",
-    "href": "00-demo.html#labs",
-    "title": "1  Demo of Custom CSS Features",
-    "section": "1.6 Labs",
-    "text": "1.6 Labs\n\nLab 9: Conveying the right message through visualisation\nImproving data visualisations to better convey the right message\n\nInstructions\n\n\nSource\n\n\nStarter"
-  },
-  {
-    "objectID": "01-intro.html",
-    "href": "01-intro.html",
-    "title": "2  Including Code and References",
+    "objectID": "02-data-wrangling-visualization.html",
+    "href": "02-data-wrangling-visualization.html",
+    "title": "2  Data Wrangling & Visualization",
     "section": "",
-    "text": "See Knuth (1984) for additional discussion of literate programming.\nYou can include and execute code chunks in various languages, such as R and Python. Note: you need to have the respective language installed on your machine to run the language-specific code chunks.\nR Code\n\n1 + 1\n\n[1] 2\n\n\nPython Code\n\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "You have just learned the basics of working with Python. Now, let’s lean how to wrangle data and visualize it!\nThis second part of the course, covers the external libraries numpy and pandas to work with data. Both are essential workhorses of data wrangling with Python. numpy is a library for scientific computing and many other libraries are built on top of this one. pandas is a data analysis and manipulation tool and the best choice when working with tabular data. At the end of this lecture we will also introduce and use matplotlib for simple plotting."
+  },
+  {
+    "objectID": "02-data-wrangling-visualization.html#lecture-notes",
+    "href": "02-data-wrangling-visualization.html#lecture-notes",
+    "title": "2  Data Wrangling & Visualization",
+    "section": "2.1 Lecture Notes",
+    "text": "2.1 Lecture Notes\n\nPart 2: Libraries, Data Frames, Data Wrangling, and Visualization\n\n\n\nSlides"
+  },
+  {
+    "objectID": "02-data-wrangling-visualization.html#application-exercise-during-the-course",
+    "href": "02-data-wrangling-visualization.html#application-exercise-during-the-course",
+    "title": "2  Data Wrangling & Visualization",
+    "section": "2.2 Application Exercise During the Course",
+    "text": "2.2 Application Exercise During the Course\n\nData Wrangling and Plotting\nPlease open Google Colab for this exercise through the following link. After opening the Google Colab instance, save a copy to your own Google drive. That’s how you will retain your copy with your own code.\n\nExercise Template on Google Colab"
+  },
+  {
+    "objectID": "02-data-wrangling-visualization.html#additional-application-exercises-for-self-study",
+    "href": "02-data-wrangling-visualization.html#additional-application-exercises-for-self-study",
+    "title": "2  Data Wrangling & Visualization",
+    "section": "2.3 Additional Application Exercises for Self-Study",
+    "text": "2.3 Additional Application Exercises for Self-Study\nExcited for more data wrangling and visualization? Check out the following additional exercises that let you visualize AirBnB data from Berlin.\n\nData Wrangling and Plotting with AirBnB data\n\nExercise Template on Google Colab\n\n\n\n\nSolution"
+  },
+  {
+    "objectID": "03-advanced-visualization-modeling.html",
+    "href": "03-advanced-visualization-modeling.html",
+    "title": "3  Advanced Vizualization & Modeling",
+    "section": "",
+    "text": "Two out of three — done! Now, let’s get to the last part of the course. And maybe the most exciting part: advanced visualization with seaborn and some fancy machine learning modeling with scikit-learn (we admit, it’s just a regression — but the neural networks or gradient boosting algorithms are just a couple of code lines away)."
+  },
+  {
+    "objectID": "03-advanced-visualization-modeling.html#lecture-notes",
+    "href": "03-advanced-visualization-modeling.html#lecture-notes",
+    "title": "3  Advanced Vizualization & Modeling",
+    "section": "3.1 Lecture Notes",
+    "text": "3.1 Lecture Notes\n\nPart 3: Advanced Visualization and Modeling\n\n\n\nSlides"
+  },
+  {
+    "objectID": "03-advanced-visualization-modeling.html#application-exercise-during-the-course",
+    "href": "03-advanced-visualization-modeling.html#application-exercise-during-the-course",
+    "title": "3  Advanced Vizualization & Modeling",
+    "section": "3.2 Application Exercise During the Course",
+    "text": "3.2 Application Exercise During the Course\n\nVisualizing Weather Data and Predicting Apartment Prices\nPlease open Google Colab for this exercise through the following link. After opening the Google Colab instance, save a copy to your own Google drive. That’s how you will retain your copy with your own code.\n\nExercise Template on Google Colab"
+  },
+  {
+    "objectID": "03-advanced-visualization-modeling.html#additional-application-exercises-for-self-study",
+    "href": "03-advanced-visualization-modeling.html#additional-application-exercises-for-self-study",
+    "title": "3  Advanced Vizualization & Modeling",
+    "section": "3.3 Additional Application Exercises for Self-Study",
+    "text": "3.3 Additional Application Exercises for Self-Study\nExcited for more data wrangling and visualization? Check out the following additional exercises that let you visualize AirBnB data from Berlin.\n\nModeling with AirBnB data\n\nExercise Template on Google Colab\n\n\n\n\nSolution"
   },
   {
     "objectID": "99-next-steps.html",
     "href": "99-next-steps.html",
-    "title": "3  Summary",
+    "title": "Next Steps",
     "section": "",
-    "text": "1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "We would love to hear your feedback on this course and the course format. Please take a minute to write a short email to Lukas Jürgensmeier (send me an email) with three things you liked about this course, three things you disliked, and — if possible — a comment on how we should further develop this course for future audiences.\nThanks again for your time! We hope that you will find your newly acquired skills helpful in future projects."
   }
 ]

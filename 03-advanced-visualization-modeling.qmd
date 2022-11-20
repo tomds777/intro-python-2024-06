@@ -1,0 +1,62 @@
+# Advanced Vizualization & Modeling
+
+Two out of three --- done! Now, let's get to the last part of the course.
+And maybe the most exciting part: advanced visualization with `seaborn` and some fancy machine learning modeling with `scikit-learn` (we admit, it's just a regression --- but the neural networks or gradient boosting algorithms are just a couple of code lines away).
+
+## Lecture Notes
+
+::: slide-deck
+**Part 3: Advanced Visualization and Modeling**
+
+::: slides
+```{r echo=FALSE}
+xfun::embed_file("slides/03-lecture-slides-intro-python.pdf", text = "Slides")
+```
+:::
+:::
+
+
+## Application Exercise During the Course
+
+:::: application-exercise
+**Visualizing Weather Data and Predicting Apartment Prices**
+
+Please open Google Colab for this exercise through the following link.
+After opening the Google Colab instance, save a copy to your own Google drive.
+That's how you will retain your copy with your own code.
+
+::: source
+[Exercise Template on Google Colab](https://colab.research.google.com/drive/1vE2MZSkClQ47gpVg0LC_cyr4tqeumizd?usp=sharing){target="_blank"}
+:::
+
+<!-- Note: Comment the solutions if you don't want to show them. -->
+<!-- After the course unit, you can uncomment them -->
+
+<!-- ::: source -->
+<!-- [Solution](insert-link-here){target="_blank"}  -->
+<!-- ::: -->
+:::
+
+
+
+## Additional Application Exercises for Self-Study
+
+Excited for more data wrangling and visualization? 
+Check out the following additional exercises that let you visualize AirBnB data from Berlin.
+
+:::: application-exercise
+**Modeling with AirBnB data**
+
+
+::: source
+[Exercise Template on Google Colab](https://colab.research.google.com/drive/1EKv0CCRQ_W7GkJPJG_enI3k97HIxoMcY?usp=sharing){target="_blank"} 
+:::
+
+<!-- Note: Comment the solutions if you don't want to show them. -->
+<!-- After the course unit, you can uncomment them -->
+
+::: source
+[Solution](https://colab.research.google.com/drive/1Z8U0FdTGLlldL-EjfF2QdAd2wOfvpT_I?usp=sharing){target="_blank"}
+:::
+:::
+

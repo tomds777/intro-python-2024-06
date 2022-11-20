@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Jane Doe &amp; John Doe">
-<meta name="description" content="A workshop introducing you to the Y Programming language">
+<meta name="author" content="Lazaros Papadopoulos &amp; Manuel Mair am Tinkhof">
+<meta name="dcterms.date" content="2022-12-06">
 
-<title>Introduction to Programming</title>
+<title>Introduction to Data Science with Python</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -27,7 +27,7 @@ ul.task-list{list-style: none;}
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./00-demo.html" rel="next">
+<link href="./01-fundamentals-of-python.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,7 +68,7 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Introduction to Programming</h1>
+      <h1 class="quarto-secondary-nav-title">Introduction to Data Science with Python</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -79,15 +79,9 @@ ul.task-list{list-style: none;}
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="./" class="sidebar-logo-link">
-      <img src="./files/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
-      </a>
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Introduction to Programming</a> 
-        <div class="sidebar-tools-main">
-    <a href="https://lukas-juergensmeier.com/" title="" class="sidebar-tool px-1"><i class="bi bi-box-arrow-up-right"></i></a>
-</div>
+      <a href="./">Introduction to Data Science with Python</a> 
     </div>
       </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
@@ -104,22 +98,22 @@ ul.task-list{list-style: none;}
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./00-demo.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Demo of Custom CSS Features</span></a>
+  <a href="./01-fundamentals-of-python.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Fundamentals of Python</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./01-intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Including Code and References</span></a>
+  <a href="./02-data-wrangling-visualization.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Data Wrangling &amp; Visualization</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./99-next-steps.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Summary</span></a>
+  <a href="./03-advanced-visualization-modeling.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Advanced Vizualization &amp; Modeling</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  <a href="./99-next-steps.html" class="sidebar-item-text sidebar-link">Next Steps</a>
   </div>
 </li>
     </ul>
@@ -135,13 +129,10 @@ ul.task-list{list-style: none;}
   <ul class="collapse">
   <li><a href="#course-objective" id="toc-course-objective" class="nav-link" data-scroll-target="#course-objective">Course Objective</a></li>
   <li><a href="#course-description" id="toc-course-description" class="nav-link" data-scroll-target="#course-description">Course Description</a></li>
-  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
   <li><a href="#conditions" id="toc-conditions" class="nav-link" data-scroll-target="#conditions">Conditions</a></li>
-  <li><a href="#course-organization-video-recordings" id="toc-course-organization-video-recordings" class="nav-link" data-scroll-target="#course-organization-video-recordings">Course Organization &amp; Video Recordings</a></li>
+  <li><a href="#course-organization" id="toc-course-organization" class="nav-link" data-scroll-target="#course-organization">Course Organization</a></li>
   <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule">Schedule</a></li>
-  <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings">Readings</a></li>
   <li><a href="#trainers" id="toc-trainers" class="nav-link" data-scroll-target="#trainers">Trainers</a></li>
-  <li><a href="#license" id="toc-license" class="nav-link" data-scroll-target="#license">License</a></li>
   <li><a href="#acknowledements" id="toc-acknowledements" class="nav-link" data-scroll-target="#acknowledements">Acknowledements</a></li>
   </ul></li>
   </ul>
@@ -152,14 +143,9 @@ ul.task-list{list-style: none;}
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Introduction to Programming</h1>
+<h1 class="title d-none d-lg-block">Introduction to Data Science with Python</h1>
 </div>
 
-<div>
-  <div class="description">
-    A workshop introducing you to the Y Programming language
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -167,14 +153,14 @@ ul.task-list{list-style: none;}
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Jane Doe &amp; John Doe </p>
+             <p>Lazaros Papadopoulos &amp; Manuel Mair am Tinkhof </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Invalid Date</p>
+      <p class="date">December 6, 2022</p>
     </div>
   </div>
     
@@ -186,30 +172,23 @@ ul.task-list{list-style: none;}
 <section id="welcome" class="level1 unnumbered">
 <h1 class="unnumbered">Welcome</h1>
 <p>Welcome to the course website for</p>
-<p><strong>Introduction to Data Science with R and Tidyverse</strong></p>
-<p>offered for GRADE Brain and other GRADE Centers at Goethe University in January 2023. This website serves as the central repository for all course materials. Here, you will find all slides, lecture materials, and links to your online development environment.</p>
+<p><strong>Introduction to Data Science with Python</strong></p>
+<p>offered at EBS Business School on December 6, 2022. This website serves as the central repository for all course materials. Here, you will find all slides, lecture materials, and links to your online development environment.</p>
 <section id="course-objective" class="level2">
 <h2 class="anchored" data-anchor-id="course-objective">Course Objective</h2>
-<p>Most academic fields require proficiency in at least one data-centered analysis tool. For many, the R programming language has become the tool of choice. However, the first steps in coding can be intimidating and discouraging—especially if you have never worked with a programming language before. This course aims at providing a results-oriented, applied, and hands-on introduction to the most important parts of a Data Science project in R. We will not only introduce the libraries and frameworks necessary for your analysis, but also focus on teaching you the implementation and application of those tools with small examples that you can work on yourself.</p>
-<p>Our goal is to show you the scope of possibilities within R and leave you with the impression that you can confidently implement your own empirical projects in R. We will focus on the Tidyverse ecosystem, a consistent and intuitive framework for building your data analysis from start to finish. After the successful completion of this course, you know how to apply the basic Tidyverse tools for common Data Science tasks in R—primarily data wrangling, data visualization, and results communication.</p>
+<p>Data analysis plays a critical role in many academic disciplines, and the Python programming language has become one of the standard tools within the Data Science community. This course will introduce programming with Python and how to use it for data analysis. After successfully completing this course, you will be able to understand the fundamentals of the Python programming language. This skill set includes basic data analysis by data wrangling, data visualization, and implementing simple statistical models in Python.</p>
+<p>Our goal is to show you the scope of possibilities within Python and leave you with the impression that you can confidently implement your own empirical projects in Python.</p>
 </section>
 <section id="course-description" class="level2">
 <h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
-<p>We aim this course at beginners who are either entirely new to R as a programming language and/or want to learn about the Tidyverse ecosystem. The course covers four primary areas of the typical data science process and introduces the respective <code>tidyverse</code> tools:</p>
+<p>This course aims at Python beginners. Hence, we will cover the fundamentals of programming and Python, such as variables, loops, and logic statements, before we dive into the topic of Data Science. This course will not cover deeper statistical or theoretical concepts as we focus on applied coding.</p>
+<p>This course introduces:</p>
 <ul>
-<li>Plotting with <code>ggplot2</code></li>
-<li>Data wrangling with <code>dplyr</code></li>
-<li>Communicating your results with R Markdown</li>
-<li>Regressions with <code>tidymodels</code></li>
+<li>Syntax and basics of Python</li>
+<li>How to use Jupyter Notebooks as a development environment</li>
+<li>Data analysis, data wrangling, and data visualization using <code>numpy</code>, <code>pandas</code> and <code>matplotlib</code></li>
+<li>Introduction to implementing simple statistical models in Python with <code>scikit-learn</code></li>
 </ul>
-<p>We will not cover statistical or theoretical concepts in this course, as the focus will lie on applied coding.</p>
-</section>
-<section id="methods" class="level2">
-<h2 class="anchored" data-anchor-id="methods">Methods</h2>
-<p>We will <em>let you eat cake first</em>. What does that mean? Many programming courses start with the absolute basics — variable types, syntax, loops, etc. Those are important but quite dull in the beginning. Instead of monotonously walking you through those, we follow a different teaching philosophy.</p>
-<p>Each topic will start with a very friendly and sometimes a bit complicated <em>cake</em>. And you will dive right into it by executing and adapting the code for that “data science cake.”</p>
-<p>For example, we will show you an advanced visualization right at the beginning of the course and focus on what is possible eventually. While this might appear intimidating at first (<em>“how should I ever be able to code that from scratch?”</em>), we will walk you through the steps and introduce the methods to get there during the course.</p>
-<p>The course will alternate between short introductions to a concept or method and small do-it-yourself coding exercises. In between the three sessions, you are encouraged to work on provided exercises that further deepen your understanding.</p>
 </section>
 <section id="conditions" class="level2">
 <h2 class="anchored" data-anchor-id="conditions">Conditions</h2>
@@ -218,221 +197,102 @@ ul.task-list{list-style: none;}
 <p>By avoiding to install RStudio locally during the course, we can start right away with the more critical course content. If you already have set up a local installation of RStudio, you are, of course, more than welcome to use that instead. In this case, download the source files linked in the respective application exercises. Note that you won’t need to set anything up if you use RStudio Cloud.</p>
 <p>Since we do not want to waste precious time on the technical setup, we will use the RStudio Cloud as a simple—and already set up—development environment. We will send out detailed instructions and an invitation link in advance.</p>
 </section>
-<section id="course-organization-video-recordings" class="level2">
-<h2 class="anchored" data-anchor-id="course-organization-video-recordings">Course Organization &amp; Video Recordings</h2>
-<p>We will meet on three Tuesday evenings from <em>6:00 - 8:00 p.m.</em> Please access the course via <a href="https://uni-frankfurt.zoom.us/s/93307941729?pwd=N0YyVGZ3a1lrMXdsR1FSMDFSUFpoZz09">this Zoom link</a> or the meeting ID 933 0794 1729 and passcode 692604.</p>
-<table class="table">
-<thead>
-<tr class="header">
-<th>Part</th>
-<th>Date</th>
-<th>Time</th>
-<th>Video Recording</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>12.01.2023</td>
-<td>18:00 - 20:00</td>
-<td>Link will follow here</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>19.01.2023</td>
-<td>18:00 - 20:00</td>
-<td>Link will follow here</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>26.01.2023</td>
-<td>18:00 - 20:00</td>
-<td>Link will follow here</td>
-</tr>
-</tbody>
-</table>
+<section id="course-organization" class="level2">
+<h2 class="anchored" data-anchor-id="course-organization">Course Organization</h2>
+<p>We will meet in person on December 6, 2022 at EBS Business School in Oestrich-Winkel. The course takes place between 9:00 and 17:00, with a lunch and coffee breaks in between. We encourage you to attend in person, which makes the interaction and troubleshooting on your computer easier. However, if you cannot attend personally, you can join the course via this <a href="https://uni-frankfurt.zoom.us/j/6100021376">Zoom-Link</a>.</p>
 <p>We want you to <em>make your hands dirty</em> — that means we want you to code! Just following along fancy slides won’t magically transfer the skill of coding to you. But you actively engaging with the course content in your development environment will more likely do just that.</p>
-<p>That’s why we need you to prepare accordingly:</p>
-<ul>
-<li>Try to follow the course with two screens or two devices (one for Zoom and the slides, and one for your browser with RStudio Cloud)</li>
-<li>Please create an RStudio Cloud account before the first class. We have sent you a link to access all exercises on RStudio Cloud. Since we want you to start coding very early on in the first class, please ensure that you can access those course materials on RStudio Cloud before our first meeting.</li>
-</ul>
+<p>That’s why we need you to prepare accordingly: Please ensure that you have access to <a href="https://colab.research.google.com/">Google Colab</a> before the course. We will use Google Colab for the coding parts, such that we can use Python without (sometimes time-consuming) pre-configuration or installation on your machine. To use Google colab, you need a Google account (same account which is used for Gmail, YouTube, etc.)</p>
 <p>If you have any questions, please reach out to one of us through the e-mail addresses on the bottom of this page.</p>
 </section>
 <section id="schedule" class="level2">
 <h2 class="anchored" data-anchor-id="schedule">Schedule</h2>
-<p>This workshop alternates between lecture-style presentations and application exercises. In those hands-on exercises, you will actively try out the discussed tools and techniques in Zoom breakout rooms. We aim to adhere to the following schedule. Depending on our progress, we may discuss some parts a bit earlier or later during the course.</p>
+<p>This workshop alternates between lecture-style presentations and application exercises. In those hands-on exercises, you will actively try out the discussed tools. Our one-day course consists of four parts interrupted by lunch and coffee breaks</p>
 <table class="table">
 <colgroup>
-<col style="width: 12%">
-<col style="width: 13%">
-<col style="width: 27%">
-<col style="width: 23%">
-<col style="width: 23%">
+<col style="width: 11%">
+<col style="width: 15%">
+<col style="width: 72%">
 </colgroup>
 <thead>
 <tr class="header">
+<th>Time</th>
 <th>Part</th>
-<th>Date</th>
-<th>Title</th>
-<th>Type</th>
-<th>Lecturer</th>
+<th>Details</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
-<td>12.01.</td>
-<td>Welcome</td>
-<td>Lecture</td>
-<td>Lara</td>
+<td>9:00</td>
+<td>Course Part 1</td>
+<td>Course Introduction and Fundamentals of Python</td>
 </tr>
 <tr class="even">
-<td>1</td>
-<td>12.01.</td>
-<td>First data visualization: UN Votes</td>
-<td>Application Exercise</td>
+<td>10:30</td>
+<td>Break</td>
+<td>Coffee</td>
+</tr>
+<tr class="odd">
+<td>11:00</td>
+<td>Course Part 2</td>
+<td><p>Fundamentals of Python (cont’d)</p>
+<p>Data wrangling and visualizations using pandas and matplotlib</p></td>
+</tr>
+<tr class="even">
+<td>12:30</td>
+<td>Break</td>
+<td>Lunch</td>
+</tr>
+<tr class="odd">
+<td>13:30</td>
+<td>Course Part 3</td>
+<td>Data wrangling and visualizations using pandas and matplotlib (cont’d)</td>
+</tr>
+<tr class="even">
+<td>15:00</td>
+<td>Break</td>
+<td>Coffee</td>
+</tr>
+<tr class="odd">
+<td>15:30</td>
+<td>Course Part 4</td>
+<td>Advanced visualizations with seaborn, modeling with scikit-learn</td>
+</tr>
+<tr class="even">
+<td>17:00</td>
+<td>End</td>
 <td></td>
-</tr>
-<tr class="odd">
-<td>1</td>
-<td>12.01.</td>
-<td>Meet the programming toolkit</td>
-<td>Lecture</td>
-<td>Karlo</td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>12.01.</td>
-<td>The Bechdel Test + R Markdown</td>
-<td>Application Exercise</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>2</td>
-<td>12.01.</td>
-<td>Data and visualization</td>
-<td>Lecture</td>
-<td>Lara</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>12.01.</td>
-<td>Visualizing data with ggplot2</td>
-<td>Lecture</td>
-<td>Lara</td>
-</tr>
-<tr class="odd">
-<td>2</td>
-<td>19.01.</td>
-<td>Visualizing categorical data</td>
-<td>Lecture</td>
-<td>Lara</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>19.01.</td>
-<td>StarWars + Dataviz</td>
-<td>Application Exercise</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>19.01.</td>
-<td>Tidy data</td>
-<td>Lecture</td>
-<td>Karlo</td>
-</tr>
-<tr class="even">
-<td>3</td>
-<td>19.01.</td>
-<td>Grammar of data wrangling</td>
-<td>Lecture</td>
-<td>Karlo</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>19.01.</td>
-<td>Working with a single data frame</td>
-<td>Lecture</td>
-<td>Lara</td>
-</tr>
-<tr class="even">
-<td>3</td>
-<td>19.01.</td>
-<td>Hotels + Data wrangling</td>
-<td>Application Exercise</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>26.01.</td>
-<td>Working with multiple data frames</td>
-<td>Lecture</td>
-<td>Karlo</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>26.01.</td>
-<td>Data types</td>
-<td>Lecture</td>
-<td>Karlo</td>
-</tr>
-<tr class="odd">
-<td>4</td>
-<td>26.01.</td>
-<td>Importing data</td>
-<td>Lecture</td>
-<td>Lara</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>26.01.</td>
-<td>Nobels + Sales + Data import</td>
-<td>Application Exercise</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>26.01.</td>
-<td>Fitting and interpreting models</td>
-<td>Lecture</td>
-<td>Lara</td>
 </tr>
 </tbody>
 </table>
-</section>
-<section id="readings" class="level2">
-<h2 class="anchored" data-anchor-id="readings">Readings</h2>
-<p>The course is self-contained, and you will most likely get all the necessary information for the application exercises from the slides. If you want to read more about given topics, we provide links to chapters in open source Data Science/Tidyverse/R textbooks. You will find the links on the following pages right beside the link to each chapter’s slides.</p>
-<div class="reading">
-<p>We suggest two textbook references:</p>
-<ul>
-<li><strong>R4DS</strong>: Wickham, H., Grolemund, G. (2017), “R for Data Science: Import, Tidy, Transform, Visualize, and Model Data”, available at <a href="https://r4ds.had.co.nz/">r4ds.had.co.nz</a></li>
-<li><strong>IMS</strong>: Çetinkaya-Rundel, M., Hardin, J. (2022), “Introduction to Modern Statistics”, available at <a href="https://openintro-ims.netlify.app/">openintro-ims.netlify.app</a></li>
-</ul>
-</div>
+<!-- ## Readings -->
+<!-- The course is self-contained, and you will most likely get all the necessary information for the application exercises from the slides. -->
+<!-- If you want to read more about given topics, we provide links to chapters in open source Data Science/Tidyverse/R textbooks. -->
+<!-- You will find the links on the following pages right beside the link to each chapter's slides. -->
+<!-- ::: reading -->
+<!-- We suggest two textbook references: -->
+<!-- -   **R4DS**: Wickham, H., Grolemund, G. (2017), "R for Data Science: Import, Tidy, Transform, Visualize, and Model Data", available at [r4ds.had.co.nz](https://r4ds.had.co.nz/) -->
+<!-- -   **IMS**: Çetinkaya-Rundel, M., Hardin, J. (2022), "Introduction to Modern Statistics", available at [openintro-ims.netlify.app](https://openintro-ims.netlify.app/) -->
+<!-- ::: -->
 </section>
 <section id="trainers" class="level2">
 <h2 class="anchored" data-anchor-id="trainers">Trainers</h2>
 <!-- Include a short biography for all teachers and include their email and personal websites -->
 <p>Feel free to reach out to us by e-mail if you have any questions before, during, or after the course:</p>
 <ul>
-<li><strong>Lara Zaremba</strong>, M.Sc., International Digital Development Trainee and former R Teacher and Course Designer at <a href="https://tech-academy.io/">TechAcademy e.V.</a>, <a href="mailto:lara.zaremba@tech-academy.io">send me an e-mail</a></li>
-<li><strong>Karlo Lukic</strong>, M.Sc., <a href="https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/team/wissenschaftliche-mitarbeiter/karlo-lukic.html">PhD Student in Quantitative Marketing</a>, former R Teacher and Course Designer at <a href="https://tech-academy.io/">TechAcademy e.V.</a>, <a href="mailto:lukic@wiwi.uni-frankfurt.de">send me an e-mail</a></li>
+<li><p><strong>Lazaros Papadopoulos</strong>, Ph.D.&nbsp;candidate, Data Science in Accounting, Goethe University Frankfurt, <a href="mailto:papadopoulos@wiwi.uni-frankfurt.de">send me an email</a></p></li>
+<li><p><strong>Manuel Mair am Tinkhof</strong>, Software Developer at Prime Capital AG, <a href="mailto:manuel.mair90@gmail.com">send me an email</a></p></li>
 </ul>
-</section>
-<section id="license" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="license">License</h2>
-<!-- Describe the course license here. More information on licenses: https://opensource.org/licenses -->
-<p><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"></a><br>This online work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>. Visit <a href="https://github.com/rstudio-education/datascience-box/blob/master/LICENSE.md">here</a> for more information about the license.</p>
+<p>Please reach out to Lukas Jürgensmeier (<a href="mailto:juergensmeier@wiwi.uni-frankfurt.de">send me an email</a>) if you have any questions regarding the course administration.</p>
+<!-- ## License {.unnumbered} -->
+<!-- <!-- Describe the course license here. More information on licenses: https://opensource.org/licenses -->
+<p>–&gt;</p>
+<!-- <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"/></a><br />This online work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>. -->
+<!-- Visit [here](https://github.com/rstudio-education/datascience-box/blob/master/LICENSE.md) for more information about the license. -->
 </section>
 <section id="acknowledements" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="acknowledements">Acknowledements</h2>
 <!-- Include any acknowledgements for the course here, especially if you relied on some materials -->
-<p>The course is built upon material from <a href="https://datasciencebox.org/">datasciencebox.org</a> by Mine Çetinkaya-Rundel.</p>
-<p>Thanks to the #rstats education community who have made numerous suggestions for this resource, Lee Suddaby and Zeno Kujawa, for converting the homework assignments to learnr tutorials and <a href="http://muge.fr/">Müge Çetinkaya</a> for the hex logo!</p>
-<p>This website is built with <a href="https://bookdown.org/">bookdown</a>, the lovely icons by <a href="http://icons8.com/">icons8</a>, and none of this would be possible without the <a href="https://tidyverse.org/">tidyverse</a>.</p>
+<p>Thanks to Felix Schneider (<a href="https://github.com/flxmschneider">Github</a>), who initially developed this course and granted permission adapt and use the course materials.</p>
 
 
 </section>
@@ -540,8 +400,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./00-demo.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Demo of Custom CSS Features</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./01-fundamentals-of-python.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Fundamentals of Python</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
