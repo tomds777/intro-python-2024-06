@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jane Doe &amp; John Doe">
+<meta name="description" content="A workshop introducing you to the Y Programming language">
+
+<title>Introduction to Programming</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./00-demo.html" rel="next">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="css/custom-environments.css">
+<link rel="stylesheet" href="css/fontawesome/css/all.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Introduction to Programming</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./" class="sidebar-logo-link">
+      <img src="./files/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Introduction to Programming</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://lukas-juergensmeier.com/" title="" class="sidebar-tool px-1"><i class="bi bi-box-arrow-up-right"></i></a>
+</div>
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">Welcome</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00-demo.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Demo of Custom CSS Features</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01-intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Including Code and References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./99-next-steps.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Summary</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a>
+  <ul class="collapse">
+  <li><a href="#course-objective" id="toc-course-objective" class="nav-link" data-scroll-target="#course-objective">Course Objective</a></li>
+  <li><a href="#course-description" id="toc-course-description" class="nav-link" data-scroll-target="#course-description">Course Description</a></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
+  <li><a href="#conditions" id="toc-conditions" class="nav-link" data-scroll-target="#conditions">Conditions</a></li>
+  <li><a href="#course-organization-video-recordings" id="toc-course-organization-video-recordings" class="nav-link" data-scroll-target="#course-organization-video-recordings">Course Organization &amp; Video Recordings</a></li>
+  <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule">Schedule</a></li>
+  <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings">Readings</a></li>
+  <li><a href="#trainers" id="toc-trainers" class="nav-link" data-scroll-target="#trainers">Trainers</a></li>
+  <li><a href="#license" id="toc-license" class="nav-link" data-scroll-target="#license">License</a></li>
+  <li><a href="#acknowledements" id="toc-acknowledements" class="nav-link" data-scroll-target="#acknowledements">Acknowledements</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Introduction to Programming</h1>
+</div>
+
+<div>
+  <div class="description">
+    A workshop introducing you to the Y Programming language
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jane Doe &amp; John Doe </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">Invalid Date</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<section id="welcome" class="level1 unnumbered">
+<h1 class="unnumbered">Welcome</h1>
+<p>Welcome to the course website for</p>
+<p><strong>Introduction to Data Science with R and Tidyverse</strong></p>
+<p>offered for GRADE Brain and other GRADE Centers at Goethe University in January 2023. This website serves as the central repository for all course materials. Here, you will find all slides, lecture materials, and links to your online development environment.</p>
+<section id="course-objective" class="level2">
+<h2 class="anchored" data-anchor-id="course-objective">Course Objective</h2>
+<p>Most academic fields require proficiency in at least one data-centered analysis tool. For many, the R programming language has become the tool of choice. However, the first steps in coding can be intimidating and discouraging—especially if you have never worked with a programming language before. This course aims at providing a results-oriented, applied, and hands-on introduction to the most important parts of a Data Science project in R. We will not only introduce the libraries and frameworks necessary for your analysis, but also focus on teaching you the implementation and application of those tools with small examples that you can work on yourself.</p>
+<p>Our goal is to show you the scope of possibilities within R and leave you with the impression that you can confidently implement your own empirical projects in R. We will focus on the Tidyverse ecosystem, a consistent and intuitive framework for building your data analysis from start to finish. After the successful completion of this course, you know how to apply the basic Tidyverse tools for common Data Science tasks in R—primarily data wrangling, data visualization, and results communication.</p>
+</section>
+<section id="course-description" class="level2">
+<h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
+<p>We aim this course at beginners who are either entirely new to R as a programming language and/or want to learn about the Tidyverse ecosystem. The course covers four primary areas of the typical data science process and introduces the respective <code>tidyverse</code> tools:</p>
+<ul>
+<li>Plotting with <code>ggplot2</code></li>
+<li>Data wrangling with <code>dplyr</code></li>
+<li>Communicating your results with R Markdown</li>
+<li>Regressions with <code>tidymodels</code></li>
+</ul>
+<p>We will not cover statistical or theoretical concepts in this course, as the focus will lie on applied coding.</p>
+</section>
+<section id="methods" class="level2">
+<h2 class="anchored" data-anchor-id="methods">Methods</h2>
+<p>We will <em>let you eat cake first</em>. What does that mean? Many programming courses start with the absolute basics — variable types, syntax, loops, etc. Those are important but quite dull in the beginning. Instead of monotonously walking you through those, we follow a different teaching philosophy.</p>
+<p>Each topic will start with a very friendly and sometimes a bit complicated <em>cake</em>. And you will dive right into it by executing and adapting the code for that “data science cake.”</p>
+<p>For example, we will show you an advanced visualization right at the beginning of the course and focus on what is possible eventually. While this might appear intimidating at first (<em>“how should I ever be able to code that from scratch?”</em>), we will walk you through the steps and introduce the methods to get there during the course.</p>
+<p>The course will alternate between short introductions to a concept or method and small do-it-yourself coding exercises. In between the three sessions, you are encouraged to work on provided exercises that further deepen your understanding.</p>
+</section>
+<section id="conditions" class="level2">
+<h2 class="anchored" data-anchor-id="conditions">Conditions</h2>
+<p>This course is a beginner-friendly course. You do not need prior coding experience. But you are also more than welcome to participate if you are an experienced R user but want to learn more about the Tidyverse.</p>
+<p>You will need an RStudio Cloud account. RStudio Cloud is a very convenient Integrated Development Environment, where we provide you with all necessary code to follow the course and work with small application exercises on your own.</p>
+<p>By avoiding to install RStudio locally during the course, we can start right away with the more critical course content. If you already have set up a local installation of RStudio, you are, of course, more than welcome to use that instead. In this case, download the source files linked in the respective application exercises. Note that you won’t need to set anything up if you use RStudio Cloud.</p>
+<p>Since we do not want to waste precious time on the technical setup, we will use the RStudio Cloud as a simple—and already set up—development environment. We will send out detailed instructions and an invitation link in advance.</p>
+</section>
+<section id="course-organization-video-recordings" class="level2">
+<h2 class="anchored" data-anchor-id="course-organization-video-recordings">Course Organization &amp; Video Recordings</h2>
+<p>We will meet on three Tuesday evenings from <em>6:00 - 8:00 p.m.</em> Please access the course via <a href="https://uni-frankfurt.zoom.us/s/93307941729?pwd=N0YyVGZ3a1lrMXdsR1FSMDFSUFpoZz09">this Zoom link</a> or the meeting ID 933 0794 1729 and passcode 692604.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Part</th>
+<th>Date</th>
+<th>Time</th>
+<th>Video Recording</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>12.01.2023</td>
+<td>18:00 - 20:00</td>
+<td>Link will follow here</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>19.01.2023</td>
+<td>18:00 - 20:00</td>
+<td>Link will follow here</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>26.01.2023</td>
+<td>18:00 - 20:00</td>
+<td>Link will follow here</td>
+</tr>
+</tbody>
+</table>
+<p>We want you to <em>make your hands dirty</em> — that means we want you to code! Just following along fancy slides won’t magically transfer the skill of coding to you. But you actively engaging with the course content in your development environment will more likely do just that.</p>
+<p>That’s why we need you to prepare accordingly:</p>
+<ul>
+<li>Try to follow the course with two screens or two devices (one for Zoom and the slides, and one for your browser with RStudio Cloud)</li>
+<li>Please create an RStudio Cloud account before the first class. We have sent you a link to access all exercises on RStudio Cloud. Since we want you to start coding very early on in the first class, please ensure that you can access those course materials on RStudio Cloud before our first meeting.</li>
+</ul>
+<p>If you have any questions, please reach out to one of us through the e-mail addresses on the bottom of this page.</p>
+</section>
+<section id="schedule" class="level2">
+<h2 class="anchored" data-anchor-id="schedule">Schedule</h2>
+<p>This workshop alternates between lecture-style presentations and application exercises. In those hands-on exercises, you will actively try out the discussed tools and techniques in Zoom breakout rooms. We aim to adhere to the following schedule. Depending on our progress, we may discuss some parts a bit earlier or later during the course.</p>
+<table class="table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 13%">
+<col style="width: 27%">
+<col style="width: 23%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Part</th>
+<th>Date</th>
+<th>Title</th>
+<th>Type</th>
+<th>Lecturer</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>12.01.</td>
+<td>Welcome</td>
+<td>Lecture</td>
+<td>Lara</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>12.01.</td>
+<td>First data visualization: UN Votes</td>
+<td>Application Exercise</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>1</td>
+<td>12.01.</td>
+<td>Meet the programming toolkit</td>
+<td>Lecture</td>
+<td>Karlo</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>12.01.</td>
+<td>The Bechdel Test + R Markdown</td>
+<td>Application Exercise</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>12.01.</td>
+<td>Data and visualization</td>
+<td>Lecture</td>
+<td>Lara</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>12.01.</td>
+<td>Visualizing data with ggplot2</td>
+<td>Lecture</td>
+<td>Lara</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>19.01.</td>
+<td>Visualizing categorical data</td>
+<td>Lecture</td>
+<td>Lara</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>19.01.</td>
+<td>StarWars + Dataviz</td>
+<td>Application Exercise</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>19.01.</td>
+<td>Tidy data</td>
+<td>Lecture</td>
+<td>Karlo</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>19.01.</td>
+<td>Grammar of data wrangling</td>
+<td>Lecture</td>
+<td>Karlo</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>19.01.</td>
+<td>Working with a single data frame</td>
+<td>Lecture</td>
+<td>Lara</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>19.01.</td>
+<td>Hotels + Data wrangling</td>
+<td>Application Exercise</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>26.01.</td>
+<td>Working with multiple data frames</td>
+<td>Lecture</td>
+<td>Karlo</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>26.01.</td>
+<td>Data types</td>
+<td>Lecture</td>
+<td>Karlo</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>26.01.</td>
+<td>Importing data</td>
+<td>Lecture</td>
+<td>Lara</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>26.01.</td>
+<td>Nobels + Sales + Data import</td>
+<td>Application Exercise</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>26.01.</td>
+<td>Fitting and interpreting models</td>
+<td>Lecture</td>
+<td>Lara</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="readings" class="level2">
+<h2 class="anchored" data-anchor-id="readings">Readings</h2>
+<p>The course is self-contained, and you will most likely get all the necessary information for the application exercises from the slides. If you want to read more about given topics, we provide links to chapters in open source Data Science/Tidyverse/R textbooks. You will find the links on the following pages right beside the link to each chapter’s slides.</p>
+<div class="reading">
+<p>We suggest two textbook references:</p>
+<ul>
+<li><strong>R4DS</strong>: Wickham, H., Grolemund, G. (2017), “R for Data Science: Import, Tidy, Transform, Visualize, and Model Data”, available at <a href="https://r4ds.had.co.nz/">r4ds.had.co.nz</a></li>
+<li><strong>IMS</strong>: Çetinkaya-Rundel, M., Hardin, J. (2022), “Introduction to Modern Statistics”, available at <a href="https://openintro-ims.netlify.app/">openintro-ims.netlify.app</a></li>
+</ul>
+</div>
+</section>
+<section id="trainers" class="level2">
+<h2 class="anchored" data-anchor-id="trainers">Trainers</h2>
+<!-- Include a short biography for all teachers and include their email and personal websites -->
+<p>Feel free to reach out to us by e-mail if you have any questions before, during, or after the course:</p>
+<ul>
+<li><strong>Lara Zaremba</strong>, M.Sc., International Digital Development Trainee and former R Teacher and Course Designer at <a href="https://tech-academy.io/">TechAcademy e.V.</a>, <a href="mailto:lara.zaremba@tech-academy.io">send me an e-mail</a></li>
+<li><strong>Karlo Lukic</strong>, M.Sc., <a href="https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/team/wissenschaftliche-mitarbeiter/karlo-lukic.html">PhD Student in Quantitative Marketing</a>, former R Teacher and Course Designer at <a href="https://tech-academy.io/">TechAcademy e.V.</a>, <a href="mailto:lukic@wiwi.uni-frankfurt.de">send me an e-mail</a></li>
+</ul>
+</section>
+<section id="license" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="license">License</h2>
+<!-- Describe the course license here. More information on licenses: https://opensource.org/licenses -->
+<p><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"></a><br>This online work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>. Visit <a href="https://github.com/rstudio-education/datascience-box/blob/master/LICENSE.md">here</a> for more information about the license.</p>
+</section>
+<section id="acknowledements" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="acknowledements">Acknowledements</h2>
+<!-- Include any acknowledgements for the course here, especially if you relied on some materials -->
+<p>The course is built upon material from <a href="https://datasciencebox.org/">datasciencebox.org</a> by Mine Çetinkaya-Rundel.</p>
+<p>Thanks to the #rstats education community who have made numerous suggestions for this resource, Lee Suddaby and Zeno Kujawa, for converting the homework assignments to learnr tutorials and <a href="http://muge.fr/">Müge Çetinkaya</a> for the hex logo!</p>
+<p>This website is built with <a href="https://bookdown.org/">bookdown</a>, the lovely icons by <a href="http://icons8.com/">icons8</a>, and none of this would be possible without the <a href="https://tidyverse.org/">tidyverse</a>.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./00-demo.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Demo of Custom CSS Features</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

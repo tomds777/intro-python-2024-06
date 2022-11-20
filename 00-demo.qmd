@@ -1,0 +1,107 @@
+# Demo of Custom CSS Features
+
+This section highlights the customized environments that you can use to visually
+separate external material from the text body.
+
+## Slide Decks
+
+If you use slide decks, link to them here.
+
+::: slide-deck
+**Unit 2 - Deck 1: Data and visualization**
+
+::: slides
+[Slides](https://lukas-jue.github.io/intro-tidyverse-2023-january/slides/u2-d01-data-viz/u2-d01-data-viz.html#1)
+:::
+:::
+
+## Readings
+
+::: reading
+We suggest two textbook references:
+
+-   **R4DS**: Wickham, H., Grolemund, G. (2017), "R for Data Science: Import, Tidy, Transform, Visualize, and Model Data", available at [r4ds.had.co.nz](https://r4ds.had.co.nz/)
+-   **IMS**: Çetinkaya-Rundel, M., Hardin, J. (2022), "Introduction to Modern Statistics", available at [openintro-ims.netlify.app](https://openintro-ims.netlify.app/)
+:::
+
+## Application Exercises
+
+:::: application-exercise
+**StarWars + Dataviz**
+
+Please open your RStudio Cloud for this exercise.
+
+::: source
+[Exercise Template](https://github.com/lukas-jue/intro-tidyverse-2023-january/blob/master/docs/application-exercises/ae-03-starwars-dataviz/starwars.Rmd)
+:::
+
+<!-- Note: Comment the solutions if you don't want to show them. -->
+<!-- After the course unit, you can uncomment them -->
+
+<!-- ::: source -->
+<!-- [Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse-2023-january/blob/master/docs/application-exercises/ae-03-starwars-dataviz/starwars-solution.Rmd) -->
+<!-- ::: -->
+:::
+
+## Cloud IDE Link
+
+
+::: rstudio-cloud
+The RStudio Cloud workspace containing the application exercises is [here](https://rstudio.cloud).
+If you haven't already registered for RStudio Cloud and joined the workspace, please do so now.
+Be sure to register through the link we sent to you via e-mail since we purchased an RStudio Cloud premium version for this course.
+:::
+
+Note: if you want to exchange the title "RStudio Cloud:", e.g., to "Google Colab",
+change the tag `.rstudio-cloud:before` in the file `css/custom-environments.css`.
+
+
+## Nested environments
+
+::: application-exercise
+**The Bechdel Test + R Markdown**
+
+Please open your RStudio Cloud for this exercise.
+
+::: source
+[Exercise template](https://github.com/lukas-jue/intro-tidyverse-2023-january/blob/master/docs/application-exercises/ae-02-bechdel-rmarkdown/bechdel.Rmd)
+:::
+
+<!-- ::: source -->
+<!-- [Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse-2023-january/blob/master/docs/application-exercises/ae-02-bechdel-rmarkdown/bechdel-solution.Rmd) -->
+<!-- ::: -->
+
+::: reading
+This exercise uses data from the following FiveThirtyEight story on the [Bechdel Test](https://en.wikipedia.org/wiki/Bechdel_test):
+
+Hickey, W.
+(2014, April 1): [The Dollar-And-Cents Case Against Hollywood's Exclusion of Women](https://github.com/lukas-jue/intro-tidyverse-2023-january/blob/master/docs/application-exercises/ae-02-bechdel-rmarkdown/bechdel.Rmd), *FiveThirtyEight.com*
+:::
+
+::: video
+[Video](https://youtu.be/Low28hx4wyk)
+:::
+
+:::
+
+
+## Labs
+
+::: lab
+**Lab 9: Conveying the right message through visualisation**
+
+Improving data visualisations to better convey the right message
+
+::: instructions
+[Instructions](https://datasciencebox.org/course-materials/lab-instructions/lab-09/lab-09-better-viz.html)
+:::
+
+::: source
+[Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/lab-instructions/lab-09)
+:::
+
+::: starter
+[Starter](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/starters/lab/lab-09-better-viz)
+:::
+:::
+

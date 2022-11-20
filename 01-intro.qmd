@@ -1,0 +1,23 @@
+# Including Code and References
+
+This is a book created from markdown and executable code.
+
+See @knuth84 for additional discussion of literate programming.
+
+You can include and execute code chunks in various languages, such as `R` and `Python`.
+Note: you need to have the respective language installed on your machine to run
+the language-specific code chunks.
+
+*R Code*
+
+```{r}
+1 + 1
+```
+
+*Python Code*
+
+
+<!-- ```{python} -->
+<!-- 1 + 1 -->
+<!-- ``` -->
+
