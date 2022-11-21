@@ -1,8 +1,8 @@
 # Data Wrangling & Visualization
 
-You have just learned the basics of working with Python. Now, let's lean how to wrangle data and visualize it!
+You have just learned the basics of Python programming --- congrats! Now, let's learn how to wrangle and visualize data.
 
-This second part of the course, covers the external libraries `numpy` and `pandas` to work with data. Both are essential workhorses of data wrangling with Python.
+This second part of the course covers two external libraries: `numpy` and `pandas`. Both are essential workhorses of data wrangling with Python.
 `numpy` is a library for scientific computing and many other libraries are built on top of this one. `pandas` is a data analysis and manipulation tool and the best choice when working with tabular data. At the end of this lecture we will also introduce and use `matplotlib` for simple plotting.
 
 ## Lecture Notes
