@@ -11,7 +11,7 @@
     "href": "01-fundamentals-of-python.html",
     "title": "1  Fundamentals of Python",
     "section": "",
-    "text": "Let’s get started with the course contents! In this first part of the course, we will give an introduction into programming with Python in general. You will get to know the fundamentals of Python and apply them in small exercises. After you got up to speed, we introduce Jupyter Notebooks — an interactive environment to write, execute, and comment, and share Python code and results."
+    "text": "Let’s get started with the course contents! In this first part of the course, we will give an introduction to programming with Python. You will learn the fundamentals of Python and apply your new skills in small exercises. After you got up to speed, we will have an introduction to Jupyter Notebooks — an interactive environment to write, execute, and comment, and share Python code and results."
   },
   {
     "objectID": "01-fundamentals-of-python.html#lecture-notes",
@@ -39,7 +39,7 @@
     "href": "02-data-wrangling-visualization.html",
     "title": "2  Data Wrangling & Visualization",
     "section": "",
-    "text": "You have just learned the basics of working with Python. Now, let’s lean how to wrangle data and visualize it!\nThis second part of the course, covers the external libraries numpy and pandas to work with data. Both are essential workhorses of data wrangling with Python. numpy is a library for scientific computing and many other libraries are built on top of this one. pandas is a data analysis and manipulation tool and the best choice when working with tabular data. At the end of this lecture we will also introduce and use matplotlib for simple plotting."
+    "text": "You have just learned the basics of Python programming — congrats! Now, let’s learn how to wrangle and visualize data.\nThis second part of the course covers two external libraries: numpy and pandas. Both are essential workhorses of data wrangling with Python. numpy is a library for scientific computing and many other libraries are built on top of this one. pandas is a data analysis and manipulation tool and the best choice when working with tabular data. At the end of this lecture we will also introduce and use matplotlib for simple plotting."
   },
   {
     "objectID": "02-data-wrangling-visualization.html#lecture-notes",
