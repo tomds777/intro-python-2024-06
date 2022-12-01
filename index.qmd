@@ -36,22 +36,6 @@ This course introduces:
 -   Data analysis, data wrangling, and data visualization using `numpy`, `pandas` and `matplotlib`
 -   Introduction to implementing simple statistical models in Python with `scikit-learn`
 
-## Conditions
-
-This course is a beginner-friendly course.
-You do not need prior coding experience.
-But you are also more than welcome to participate if you are an experienced R user but want to learn more about the Tidyverse.
-
-You will need an RStudio Cloud account.
-RStudio Cloud is a very convenient Integrated Development Environment, where we provide you with all necessary code to follow the course and work with small application exercises on your own.
-
-By avoiding to install RStudio locally during the course, we can start right away with the more critical course content.
-If you already have set up a local installation of RStudio, you are, of course, more than welcome to use that instead.
-In this case, download the source files linked in the respective application exercises.
-Note that you won't need to set anything up if you use RStudio Cloud.
-
-Since we do not want to waste precious time on the technical setup, we will use the RStudio Cloud as a simple---and already set up---development environment.
-We will send out detailed instructions and an invitation link in advance.
 
 ## Course Organization
 
