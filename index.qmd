@@ -32,7 +32,7 @@ This course will not cover deeper statistical or theoretical concepts as we focu
 This course introduces:
 
 -   Syntax and basics of Python
--   How to use Jupyter Notebooks as a development environment
+-   How to use Notebooks as a development environment
 -   Data analysis, data wrangling, and data visualization using `numpy`, `pandas` and `matplotlib`
 -   Introduction to implementing simple statistical models in Python with `scikit-learn`
 
@@ -96,8 +96,6 @@ Please reach out to Lukas Jürgensmeier ([send me an email](mailto:juergensmeier
 <!-- ## License {.unnumbered} -->
 
 <!-- <!-- Describe the course license here. More information on licenses: https://opensource.org/licenses -->
-
---\>
 
 <!-- <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"/></a><br />This online work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>. -->
 
