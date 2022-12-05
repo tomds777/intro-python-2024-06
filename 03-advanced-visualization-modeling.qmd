@@ -55,7 +55,7 @@ Check out the following additional exercises that let you visualize AirBnB data 
 <!-- Note: Comment the solutions if you don't want to show them. -->
 <!-- After the course unit, you can uncomment them -->
 
-::: source
+::: solutionlink
 [Solution](https://colab.research.google.com/drive/1Z8U0FdTGLlldL-EjfF2QdAd2wOfvpT_I?usp=sharing){target="_blank"}
 :::
 :::

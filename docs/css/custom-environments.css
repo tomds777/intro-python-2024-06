@@ -24,7 +24,7 @@
   font-size: 0.9em;
 }
 .slides:before {
-  content: "\e163";
+  content: "\f1c1";
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   color: #a8a8a8;
@@ -67,11 +67,26 @@
   font-size: 0.9em;
 }
 .source:before {
-  content: "\f1c1";
+  content: "\f44b";
   font-family: "Font Awesome 6 Free";
   color: #a8a8a8;
   left: 5px;
   position: absolute;
+  font-weight: 900;
+}
+
+.solutionlink {
+  padding: 0em 1em 0em 2em;
+  position: relative;
+  font-size: 0.9em;
+}
+.solutionlink:before {
+  content: "\e2ca";
+  font-family: "Font Awesome 6 Free";
+  color: #a8a8a8;
+  left: 5px;
+  position: absolute;
+  font-weight: 900;
 }
 
 .guest-lecture {

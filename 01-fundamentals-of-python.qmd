@@ -64,7 +64,7 @@ Ready for some more hands-on exercises? Here you go --- four coding challenges t
 <!-- Note: Comment the solutions if you don't want to show them. -->
 <!-- After the course unit, you can uncomment them -->
 
-::: source
+::: solutionlink
 [Solution](https://colab.research.google.com/drive/10VVhlV23MHX5-awtUUCBdeSXkAt7DdQ2?usp=sharing){target="_blank"}
 :::
 :::
