@@ -90,7 +90,7 @@
 }
 .video:before {
   content: "\f16a";
-  font-family: "FontAwesome 5 Free";
+  font-family: "FontAwesome 6 Free";
   color: #c4302b;
   left: 5px;
   position: absolute;
