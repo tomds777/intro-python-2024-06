@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.1.189">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -167,7 +167,6 @@ ul.task-list li input[type="checkbox"] {
       <p class="date">December 6, 2022</p>
     </div>
   </div>
-  
     
   </div>
   
@@ -207,9 +206,9 @@ ul.task-list li input[type="checkbox"] {
 <p>This workshop alternates between lecture-style presentations and application exercises. In those hands-on exercises, you will actively try out the discussed tools. Our one-day course consists of four parts interrupted by lunch and coffee breaks</p>
 <table class="table">
 <colgroup>
-<col style="width: 11%">
-<col style="width: 15%">
-<col style="width: 71%">
+<col style="width: 10%">
+<col style="width: 16%">
+<col style="width: 73%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -221,7 +220,7 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>9:00</td>
-<td>Course Part 1</td>
+<td>1</td>
 <td>Course Introduction and Fundamentals of Python</td>
 </tr>
 <tr class="even">
@@ -231,7 +230,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>11:00</td>
-<td>Course Part 2</td>
+<td>2</td>
 <td><p>Fundamentals of Python (cont’d)</p>
 <p>Data wrangling and visualizations using pandas and matplotlib</p></td>
 </tr>
@@ -242,7 +241,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>13:30</td>
-<td>Course Part 3</td>
+<td>3</td>
 <td>Data wrangling and visualizations using pandas and matplotlib (cont’d)</td>
 </tr>
 <tr class="even">
@@ -252,7 +251,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>15:30</td>
-<td>Course Part 4</td>
+<td>4</td>
 <td>Advanced visualizations with seaborn, modeling with scikit-learn</td>
 </tr>
 <tr class="even">
@@ -262,23 +261,14 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<!-- ## Readings -->
-<!-- The course is self-contained, and you will most likely get all the necessary information for the application exercises from the slides. -->
-<!-- If you want to read more about given topics, we provide links to chapters in open source Data Science/Tidyverse/R textbooks. -->
-<!-- You will find the links on the following pages right beside the link to each chapter's slides. -->
-<!-- ::: reading -->
-<!-- We suggest two textbook references: -->
-<!-- -   **R4DS**: Wickham, H., Grolemund, G. (2017), "R for Data Science: Import, Tidy, Transform, Visualize, and Model Data", available at [r4ds.had.co.nz](https://r4ds.had.co.nz/) -->
-<!-- -   **IMS**: Çetinkaya-Rundel, M., Hardin, J. (2022), "Introduction to Modern Statistics", available at [openintro-ims.netlify.app](https://openintro-ims.netlify.app/) -->
-<!-- ::: -->
 </section>
 <section id="trainers" class="level2">
 <h2 class="anchored" data-anchor-id="trainers">Trainers</h2>
 <!-- Include a short biography for all teachers and include their email and personal websites -->
 <p>Feel free to reach out to us by e-mail if you have any questions before, during, or after the course:</p>
 <ul>
-<li><p><strong>Lazaros Papadopoulos</strong>, Ph.D.&nbsp;candidate, Data Science in Accounting, Goethe University Frankfurt, <a href="mailto:papadopoulos@wiwi.uni-frankfurt.de">send me an email</a></p></li>
-<li><p><strong>Manuel Mair am Tinkhof</strong>, Software Developer at Prime Capital AG, <a href="mailto:manuelmairamtinkhof@hotmail.com">send me an email</a></p></li>
+<li><p><strong>Lazaros Papadopoulos</strong>, Ph.D.&nbsp;candidate, Data Science in Accounting, Goethe University Frankfurt, <a href="mailto:papadopoulos@wiwi.uni-frankfurt.de">send me an email</a>, <a href="https://www.linkedin.com/in/lazaros-papadopoulos-40005b113/">LinkedIn</a></p></li>
+<li><p><strong>Manuel Mair am Tinkhof</strong>, Software Developer at Prime Capital AG, <a href="mailto:manuel.mair90@gmail.com">send me an email</a>, <a href="https://www.linkedin.com/in/manuel-mair-am-tinkhof-7b764111b/">LinkedIn</a></p></li>
 </ul>
 <p>Please reach out to Lukas Jürgensmeier (<a href="mailto:juergensmeier@wiwi.uni-frankfurt.de">send me an email</a>) if you have any questions regarding the course administration.</p>
 <!-- ## License {.unnumbered} -->
@@ -337,24 +327,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
     setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -390,42 +363,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
       });
-    }
+      return popup.innerHTML;
+    });
   }
 });
 </script>

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Introduction to Data Science with Python",
     "section": "",
-    "text": "Welcome\nWelcome to the course website for\nIntroduction to Data Science with Python\noffered at EBS Business School on December 6, 2022. This website serves as the central repository for all course materials. Here, you will find all slides, lecture materials, and links to your online development environment."
+    "text": "Welcome to the course website for\nIntroduction to Data Science with Python\noffered at EBS Business School on December 6, 2022. This website serves as the central repository for all course materials. Here, you will find all slides, lecture materials, and links to your online development environment.\n\n\nData analysis plays a critical role in many academic disciplines, and the Python programming language has become one of the standard tools within the Data Science community. This course will introduce programming with Python and how to use it for data analysis. After successfully completing this course, you will be able to understand the fundamentals of the Python programming language. This skill set includes basic data analysis by data wrangling, data visualization, and implementing simple statistical models in Python.\nOur goal is to show you the scope of possibilities within Python and leave you with the impression that you can confidently implement your own empirical projects in Python.\n\n\n\nThis course aims at Python beginners. Hence, we will cover the fundamentals of programming and Python, such as variables, loops, and logic statements, before we dive into the topic of Data Science. This course will not cover deeper statistical or theoretical concepts as we focus on applied coding.\nThis course introduces:\n\nSyntax and basics of Python\nHow to use Notebooks as a development environment\nData analysis, data wrangling, and data visualization using numpy, pandas and matplotlib\nIntroduction to implementing simple statistical models in Python with scikit-learn\n\n\n\n\nWe will meet in person on December 6, 2022 at EBS Business School in Oestrich-Winkel. The course takes place between 9:00 and 17:00, with a lunch and coffee breaks in between. We encourage you to attend in person, which makes the interaction and troubleshooting on your computer easier. However, if you cannot attend personally, you can join the course via this Zoom-Link.\nWe want you to make your hands dirty — that means we want you to code! Just following along fancy slides won’t magically transfer the skill of coding to you. But you actively engaging with the course content in your development environment will more likely do just that.\nThat’s why we need you to prepare accordingly: Please ensure that you have access to Google Colab before the course. We will use Google Colab for the coding parts, such that we can use Python without (sometimes time-consuming) pre-configuration or installation on your machine. To use Google colab, you need a Google account (same account which is used for Gmail, YouTube, etc.)\nIf you have any questions, please reach out to one of us through the e-mail addresses on the bottom of this page.\n\n\n\nThis workshop alternates between lecture-style presentations and application exercises. In those hands-on exercises, you will actively try out the discussed tools. Our one-day course consists of four parts interrupted by lunch and coffee breaks\n\n\n\n\n\n\n\n\nTime\nPart\nDetails\n\n\n\n\n9:00\n1\nCourse Introduction and Fundamentals of Python\n\n\n10:30\nBreak\nCoffee\n\n\n11:00\n2\nFundamentals of Python (cont’d)\nData wrangling and visualizations using pandas and matplotlib\n\n\n12:30\nBreak\nLunch\n\n\n13:30\n3\nData wrangling and visualizations using pandas and matplotlib (cont’d)\n\n\n15:00\nBreak\nCoffee\n\n\n15:30\n4\nAdvanced visualizations with seaborn, modeling with scikit-learn\n\n\n17:00\nEnd\n\n\n\n\n\n\n\n\nFeel free to reach out to us by e-mail if you have any questions before, during, or after the course:\n\nLazaros Papadopoulos, Ph.D. candidate, Data Science in Accounting, Goethe University Frankfurt, send me an email, LinkedIn\nManuel Mair am Tinkhof, Software Developer at Prime Capital AG, send me an email, LinkedIn\n\nPlease reach out to Lukas Jürgensmeier (send me an email) if you have any questions regarding the course administration.\n\n\n\n\n\n\n\n\nThanks to Felix Schneider (Github), who initially developed this course and granted permission adapt and use the course materials."
   },
   {
     "objectID": "01-fundamentals-of-python.html",
@@ -96,47 +96,5 @@
     "title": "Next Steps",
     "section": "",
     "text": "We would love to hear your feedback on this course and the course format. Please take a minute to write a short email to Lukas Jürgensmeier (send me an email) with three things you liked about this course, three things you disliked, and — if possible — a comment on how we should further develop this course for future audiences.\nThanks again for your time! We hope that you will find your newly acquired skills helpful in future projects."
-  },
-  {
-    "objectID": "index.html#course-objective",
-    "href": "index.html#course-objective",
-    "title": "Introduction to Data Science with Python",
-    "section": "Course Objective",
-    "text": "Course Objective\nData analysis plays a critical role in many academic disciplines, and the Python programming language has become one of the standard tools within the Data Science community. This course will introduce programming with Python and how to use it for data analysis. After successfully completing this course, you will be able to understand the fundamentals of the Python programming language. This skill set includes basic data analysis by data wrangling, data visualization, and implementing simple statistical models in Python.\nOur goal is to show you the scope of possibilities within Python and leave you with the impression that you can confidently implement your own empirical projects in Python."
-  },
-  {
-    "objectID": "index.html#course-description",
-    "href": "index.html#course-description",
-    "title": "Introduction to Data Science with Python",
-    "section": "Course Description",
-    "text": "Course Description\nThis course aims at Python beginners. Hence, we will cover the fundamentals of programming and Python, such as variables, loops, and logic statements, before we dive into the topic of Data Science. This course will not cover deeper statistical or theoretical concepts as we focus on applied coding.\nThis course introduces:\n\nSyntax and basics of Python\nHow to use Notebooks as a development environment\nData analysis, data wrangling, and data visualization using numpy, pandas and matplotlib\nIntroduction to implementing simple statistical models in Python with scikit-learn"
-  },
-  {
-    "objectID": "index.html#course-organization",
-    "href": "index.html#course-organization",
-    "title": "Introduction to Data Science with Python",
-    "section": "Course Organization",
-    "text": "Course Organization\nWe will meet in person on December 6, 2022 at EBS Business School in Oestrich-Winkel. The course takes place between 9:00 and 17:00, with a lunch and coffee breaks in between. We encourage you to attend in person, which makes the interaction and troubleshooting on your computer easier. However, if you cannot attend personally, you can join the course via this Zoom-Link.\nWe want you to make your hands dirty — that means we want you to code! Just following along fancy slides won’t magically transfer the skill of coding to you. But you actively engaging with the course content in your development environment will more likely do just that.\nThat’s why we need you to prepare accordingly: Please ensure that you have access to Google Colab before the course. We will use Google Colab for the coding parts, such that we can use Python without (sometimes time-consuming) pre-configuration or installation on your machine. To use Google colab, you need a Google account (same account which is used for Gmail, YouTube, etc.)\nIf you have any questions, please reach out to one of us through the e-mail addresses on the bottom of this page."
-  },
-  {
-    "objectID": "index.html#schedule",
-    "href": "index.html#schedule",
-    "title": "Introduction to Data Science with Python",
-    "section": "Schedule",
-    "text": "Schedule\nThis workshop alternates between lecture-style presentations and application exercises. In those hands-on exercises, you will actively try out the discussed tools. Our one-day course consists of four parts interrupted by lunch and coffee breaks\n\n\n\n\n\n\n\n\nTime\nPart\nDetails\n\n\n\n\n9:00\nCourse Part 1\nCourse Introduction and Fundamentals of Python\n\n\n10:30\nBreak\nCoffee\n\n\n11:00\nCourse Part 2\nFundamentals of Python (cont’d)\nData wrangling and visualizations using pandas and matplotlib\n\n\n12:30\nBreak\nLunch\n\n\n13:30\nCourse Part 3\nData wrangling and visualizations using pandas and matplotlib (cont’d)\n\n\n15:00\nBreak\nCoffee\n\n\n15:30\nCourse Part 4\nAdvanced visualizations with seaborn, modeling with scikit-learn\n\n\n17:00\nEnd"
-  },
-  {
-    "objectID": "index.html#trainers",
-    "href": "index.html#trainers",
-    "title": "Introduction to Data Science with Python",
-    "section": "Trainers",
-    "text": "Trainers\n\nFeel free to reach out to us by e-mail if you have any questions before, during, or after the course:\n\nLazaros Papadopoulos, Ph.D. candidate, Data Science in Accounting, Goethe University Frankfurt, send me an email\nManuel Mair am Tinkhof, Software Developer at Prime Capital AG, send me an email\n\nPlease reach out to Lukas Jürgensmeier (send me an email) if you have any questions regarding the course administration."
-  },
-  {
-    "objectID": "index.html#acknowledements",
-    "href": "index.html#acknowledements",
-    "title": "Introduction to Data Science with Python",
-    "section": "Acknowledements",
-    "text": "Acknowledements\n\nThanks to Felix Schneider (Github), who initially developed this course and granted permission adapt and use the course materials."
   }
 ]

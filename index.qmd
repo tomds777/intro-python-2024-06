@@ -36,7 +36,6 @@ This course introduces:
 -   Data analysis, data wrangling, and data visualization using `numpy`, `pandas` and `matplotlib`
 -   Introduction to implementing simple statistical models in Python with `scikit-learn`
 
-
 ## Course Organization
 
 We will meet in person on December 6, 2022 at EBS Business School in Oestrich-Winkel.
@@ -60,45 +59,27 @@ This workshop alternates between lecture-style presentations and application exe
 In those hands-on exercises, you will actively try out the discussed tools.
 Our one-day course consists of four parts interrupted by lunch and coffee breaks
 
-+-----------+---------------+------------------------------------------------------------------------+
-| Time      | Part          | Details                                                                |
-+===========+===============+========================================================================+
-| 9:00      | Course Part 1 | Course Introduction and Fundamentals of Python                         |
-+-----------+---------------+------------------------------------------------------------------------+
-| 10:30     | Break         | Coffee                                                                 |
-+-----------+---------------+------------------------------------------------------------------------+
-| 11:00     | Course Part 2 | Fundamentals of Python (cont'd)                                        |
-|           |               |                                                                        |
-|           |               | Data wrangling and visualizations using pandas and matplotlib          |
-+-----------+---------------+------------------------------------------------------------------------+
-| 12:30     | Break         | Lunch                                                                  |
-+-----------+---------------+------------------------------------------------------------------------+
-| 13:30     | Course Part 3 | Data wrangling and visualizations using pandas and matplotlib (cont'd) |
-+-----------+---------------+------------------------------------------------------------------------+
-| 15:00     | Break         | Coffee                                                                 |
-+-----------+---------------+------------------------------------------------------------------------+
-| 15:30     | Course Part 4 | Advanced visualizations with seaborn, modeling with scikit-learn       |
-+-----------+---------------+------------------------------------------------------------------------+
-| 17:00     | End           |                                                                        |
-+-----------+---------------+------------------------------------------------------------------------+
-
-<!-- ## Readings -->
-
-<!-- The course is self-contained, and you will most likely get all the necessary information for the application exercises from the slides. -->
-
-<!-- If you want to read more about given topics, we provide links to chapters in open source Data Science/Tidyverse/R textbooks. -->
-
-<!-- You will find the links on the following pages right beside the link to each chapter's slides. -->
-
-<!-- ::: reading -->
-
-<!-- We suggest two textbook references: -->
-
-<!-- -   **R4DS**: Wickham, H., Grolemund, G. (2017), "R for Data Science: Import, Tidy, Transform, Visualize, and Model Data", available at [r4ds.had.co.nz](https://r4ds.had.co.nz/) -->
-
-<!-- -   **IMS**: Çetinkaya-Rundel, M., Hardin, J. (2022), "Introduction to Modern Statistics", available at [openintro-ims.netlify.app](https://openintro-ims.netlify.app/) -->
-
-<!-- ::: -->
++---------+---------------+------------------------------------------------------------------------+
+| Time    | Part          | Details                                                                |
++=========+===============+========================================================================+
+| 9:00    | 1             | Course Introduction and Fundamentals of Python                         |
++---------+---------------+------------------------------------------------------------------------+
+| 10:30   | Break         | Coffee                                                                 |
++---------+---------------+------------------------------------------------------------------------+
+| 11:00   | 2             | Fundamentals of Python (cont'd)                                        |
+|         |               |                                                                        |
+|         |               | Data wrangling and visualizations using pandas and matplotlib          |
++---------+---------------+------------------------------------------------------------------------+
+| 12:30   | Break         | Lunch                                                                  |
++---------+---------------+------------------------------------------------------------------------+
+| 13:30   | 3             | Data wrangling and visualizations using pandas and matplotlib (cont'd) |
++---------+---------------+------------------------------------------------------------------------+
+| 15:00   | Break         | Coffee                                                                 |
++---------+---------------+------------------------------------------------------------------------+
+| 15:30   | 4             | Advanced visualizations with seaborn, modeling with scikit-learn       |
++---------+---------------+------------------------------------------------------------------------+
+| 17:00   | End           |                                                                        |
++---------+---------------+------------------------------------------------------------------------+
 
 ## Trainers
 
@@ -106,9 +87,9 @@ Our one-day course consists of four parts interrupted by lunch and coffee breaks
 
 Feel free to reach out to us by e-mail if you have any questions before, during, or after the course:
 
--   **Lazaros Papadopoulos**, Ph.D. candidate, Data Science in Accounting, Goethe University Frankfurt, [send me an email](mailto:papadopoulos@wiwi.uni-frankfurt.de)
+-   **Lazaros Papadopoulos**, Ph.D. candidate, Data Science in Accounting, Goethe University Frankfurt, [send me an email](mailto:papadopoulos@wiwi.uni-frankfurt.de), [LinkedIn](https://www.linkedin.com/in/lazaros-papadopoulos-40005b113/)
 
--   **Manuel Mair am Tinkhof**, Software Developer at Prime Capital AG, [send me an email](mailto:manuelmairamtinkhof@hotmail.com)
+-   **Manuel Mair am Tinkhof**, Software Developer at Prime Capital AG, [send me an email](mailto:manuel.mair90@gmail.com), [LinkedIn](https://www.linkedin.com/in/manuel-mair-am-tinkhof-7b764111b/)
 
 Please reach out to Lukas Jürgensmeier ([send me an email](mailto:juergensmeier@wiwi.uni-frankfurt.de)) if you have any questions regarding the course administration.
 
