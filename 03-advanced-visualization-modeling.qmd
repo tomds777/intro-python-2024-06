@@ -26,7 +26,7 @@ After opening the Google Colab instance, save a copy to your own Google drive.
 That's how you will retain your copy with your own code.
 
 ::: source
-[Exercise Template on Google Colab](https://colab.research.google.com/drive/1vE2MZSkClQ47gpVg0LC_cyr4tqeumizd?usp=sharing){target="_blank"}
+[Exercise Template on Google Colab](https://colab.research.google.com/drive/1bu0ey4tJbcDTgrzYyhqhHPmbGJf778bQ?usp=sharing){target="_blank"}
 :::
 
 <!-- Note: Comment the solutions if you don't want to show them. -->

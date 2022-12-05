@@ -36,7 +36,7 @@ After opening the Google Colab instance, save a copy to your own Google drive.
 That's how you will retain your copy with your own code.
 
 ::: source
-[Exercise Template on Google Colab](https://colab.research.google.com/drive/1hm_UzeSpDc1PMYJu01PvoM5Akj3rLevm?usp=sharing){target="_blank"}
+[Exercise Template on Google Colab](https://colab.research.google.com/drive/1rGQDSFMYzjI6dRbyYLT6egskIhAXYdVh?usp=sharing){target="_blank"}
 :::
 
 <!-- Note: Comment the solutions if you don't want to show them. -->
