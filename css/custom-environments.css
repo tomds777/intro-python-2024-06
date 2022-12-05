@@ -1,4 +1,5 @@
 /* custom environments */
+@import url("https://use.fontawesome.com/releases/v6.2.1/css/all.css");
 
 .application-exercise {
   padding: 1em 1em 1em 4em;
@@ -23,9 +24,10 @@
   font-size: 0.9em;
 }
 .slides:before {
-  content: "\f108";
-  font-family: FontAwesome;
-  color: #444B54;
+  content: "\e163";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: #a8a8a8;
   left: 5px;
   position: absolute;
 }
@@ -65,8 +67,8 @@
   font-size: 0.9em;
 }
 .source:before {
-  content: "\f1c9";
-  font-family: FontAwesome;
+  content: "\f1c1";
+  font-family: "Font Awesome 6 Free";
   color: #a8a8a8;
   left: 5px;
   position: absolute;
@@ -88,7 +90,7 @@
 }
 .video:before {
   content: "\f16a";
-  font-family: FontAwesome;
+  font-family: "FontAwesome 5 Free";
   color: #c4302b;
   left: 5px;
   position: absolute;
@@ -120,7 +122,7 @@
 }
 .instructions:before {
   content: "\f15c";
-  font-family: FontAwesome;
+  font-family: "Font Awesome 6 Free";
   color: #444B54;
   left: 5px;
   position: absolute;
@@ -133,7 +135,7 @@
 }
 .starter:before {
   content: "\f09b";
-  font-family: FontAwesome;
+  font-family: "Font Awesome 6 Free";
   color: #444B54;
   left: 5px;
   position: absolute;
