@@ -2,6 +2,6 @@
 
 Thanks for attending our one-day *Introduction to Data Science with Python* course. We hope you enjoyed this glimpse into one of the most widely used programming languages for Data Science, and many applications beyond.
 
-We would love to hear your feedback on this course and the course format. Please take a minute to write a short email to Lukas Jürgensmeier ([send me an email](mailto:juergensmeier@wiwi.uni-frankfurt.de)) with three things you liked about this course, three things you disliked, and --- if possible --- a comment on how we should further develop this course for future audiences.
+We would love to hear your feedback on this course and the course format. If you would like to send additional feedback, please send a short email to Lukas Jürgensmeier ([send me an email](mailto:juergensmeier@wiwi.uni-frankfurt.de)).
 
 Thanks again for your time! We hope that you will find your newly acquired skills helpful in future projects.

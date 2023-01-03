@@ -12,7 +12,7 @@ This second part of the course covers two external libraries: `numpy` and `panda
 
 ::: slides
 ```{r echo=FALSE}
-xfun::embed_file("slides/02-lecture-slides-intro-python.pdf", text = "Slides")
+xfun::embed_file("slides/Lecture_2_Intro_Python_GRADE_2023-01.pdf", text = "Slides")
 ```
 :::
 :::

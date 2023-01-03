@@ -10,7 +10,7 @@ Welcome to the course website for
 
 **Introduction to Data Science with Python**
 
-offered at EBS Business School on December 6, 2022.
+offered for GRADE Brain and other GRADE Centers at Goethe University in January 2023.
 This website serves as the central repository for all course materials.
 Here, you will find all slides, lecture materials, and links to your online development environment.
 
@@ -36,12 +36,18 @@ This course introduces:
 -   Data analysis, data wrangling, and data visualization using `numpy`, `pandas` and `matplotlib`
 -   Introduction to implementing simple statistical models in Python with `scikit-learn`
 
-## Course Organization
+## Course Organization and Schedule
 
-We will meet in person on December 6, 2022 at EBS Business School in Oestrich-Winkel.
-The course takes place between 9:00 and 17:00, with a lunch and coffee breaks in between.
-We encourage you to attend in person, which makes the interaction and troubleshooting on your computer easier.
-However, if you cannot attend personally, you can join the course via this [Zoom-Link](https://uni-frankfurt.zoom.us/j/6100021376).
+We will meet on three Tuesday evenings from *6:00 - 8:00 p.m.* Please access the course via [this Zoom link](#).
+
+This workshop alternates between lecture-style presentations and application exercises.
+We aim to adhere to the following schedule:
+
+| Part | Content                                                          | Date       | Time          | Video Recording       |
+|-------|-------------------------------|-------------|-------------|-------------|
+| 1    | Course Introduction and Fundamentals of Python                   | 10.01.2023 | 18:00 - 20:00 | Link will follow here |
+| 2    | Data wrangling and visualizations using pandas and matplotlib    | 17.01.2023 | 18:00 - 20:00 | Link will follow here |
+| 3    | Advanced visualizations with seaborn, modeling with scikit-learn | 24.01.2023 | 18:00 - 20:00 | Link will follow here |
 
 We want you to *make your hands dirty* --- that means we want you to code!
 Just following along fancy slides won't magically transfer the skill of coding to you.
@@ -53,45 +59,16 @@ To use Google colab, you need a Google account (same account which is used for G
 
 If you have any questions, please reach out to one of us through the e-mail addresses on the bottom of this page.
 
-## Schedule
-
-This workshop alternates between lecture-style presentations and application exercises.
-In those hands-on exercises, you will actively try out the discussed tools.
-Our one-day course consists of four parts interrupted by lunch and coffee breaks
-
-+---------+---------------+------------------------------------------------------------------------+
-| Time    | Part          | Details                                                                |
-+=========+===============+========================================================================+
-| 9:00    | 1             | Course Introduction and Fundamentals of Python                         |
-+---------+---------------+------------------------------------------------------------------------+
-| 10:30   | Break         | Coffee                                                                 |
-+---------+---------------+------------------------------------------------------------------------+
-| 11:00   | 2             | Fundamentals of Python (cont'd)                                        |
-|         |               |                                                                        |
-|         |               | Data wrangling and visualizations using pandas and matplotlib          |
-+---------+---------------+------------------------------------------------------------------------+
-| 12:30   | Break         | Lunch                                                                  |
-+---------+---------------+------------------------------------------------------------------------+
-| 13:30   | 3             | Data wrangling and visualizations using pandas and matplotlib (cont'd) |
-+---------+---------------+------------------------------------------------------------------------+
-| 15:00   | Break         | Coffee                                                                 |
-+---------+---------------+------------------------------------------------------------------------+
-| 15:30   | 4             | Advanced visualizations with seaborn, modeling with scikit-learn       |
-+---------+---------------+------------------------------------------------------------------------+
-| 17:00   | End           |                                                                        |
-+---------+---------------+------------------------------------------------------------------------+
-
-## Trainers
+ITrainers
 
 <!-- Include a short biography for all teachers and include their email and personal websites -->
 
 Feel free to reach out to us by e-mail if you have any questions before, during, or after the course:
 
--   **Lazaros Papadopoulos**, Ph.D. candidate, Data Science in Accounting, Goethe University Frankfurt, [send me an email](mailto:papadopoulos@wiwi.uni-frankfurt.de), [LinkedIn](https://www.linkedin.com/in/lazaros-papadopoulos-40005b113/)
+-   **Jan Zacharias**, Research Associate and Ph.D.
+    Student in Information Systems and Information Management, [send me an email](mailto:zacharias@wiwi.uni-frankfurt.de), [LinkedIn](https://www.linkedin.com/in/jan-zacharias-313322177)
 
--   **Manuel Mair am Tinkhof**, Software Developer at Prime Capital AG, [send me an email](mailto:manuel.mair90@gmail.com), [LinkedIn](https://www.linkedin.com/in/manuel-mair-am-tinkhof-7b764111b/)
-
-Please reach out to Lukas Jürgensmeier ([send me an email](mailto:juergensmeier@wiwi.uni-frankfurt.de)) if you have any questions regarding the course administration.
+-   **Tom Schwitzkowski**, Member of the Executive Board at TechAcademy e.V., Master's Student in Business Informatics, [send me an email](mailto:tom.schwitzkowski@tech-academy.io), [LinkedIn](https://www.linkedin.com/in/tom-schwitzkowski/)
 
 <!-- ## License {.unnumbered} -->
 

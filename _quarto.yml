@@ -4,8 +4,8 @@ project:
 
 book:
   title: "Introduction to Data Science with Python"
-  author: "Lazaros Papadopoulos & Manuel Mair am Tinkhof"
-  date: "December 6, 2022"
+  author: "Jan Zacharias & Tom Schwitzkowski"
+  date: "January 10, 2023"
   # description: "A one-day workshop introducing you to the Python programming language for Data Science"
   chapters:
     - index.qmd
@@ -18,7 +18,7 @@ book:
   #   tools:
   #     - icon: box-arrow-up-right
   #       href: https://lukas-juergensmeier.com/
-  github-repo: lukas-jue/intro-to-python-2022-12
+github-repo: lukas-jue/intro-to-python-2023-01
 
 bibliography: references.bib
 

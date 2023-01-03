@@ -20,7 +20,7 @@ After you got up to speed, we will have an introduction to Jupyter Notebooks ---
 ::: slides
 
 ```{r echo=FALSE}
-xfun::embed_file("slides/01-lecture-slides-intro-python.pdf", text = "Slides")
+xfun::embed_file("slides/Lecture_1_Intro_Python_GRADE_2023-01.pdf", text = "Slides")
 ```
 :::
 :::
