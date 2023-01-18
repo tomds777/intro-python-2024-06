@@ -46,7 +46,7 @@ We aim to adhere to the following schedule:
 | Part | Content                                                          | Date       | Time          | Video Recording                                                                            |
 |-------------|-----------------------|-------------|-------------|-------------|
 | 1    | Course Introduction and Fundamentals of Python                   | 10.01.2023 | 18:00 - 20:00 | [Link](https://drive.google.com/file/d/12Sfd1IN9kaVdKMTp26Z9_FpJ9Ax5grX3/view?usp=sharing) |
-| 2    | Data wrangling and visualizations using pandas and matplotlib    | 17.01.2023 | 18:00 - 20:00 | Link will follow here                                                                      |
+| 2    | Data wrangling and visualizations using pandas and matplotlib    | 17.01.2023 | 18:00 - 20:00 | [Link](https://uni-frankfurt.zoom.us/rec/play/RbFGBcH6Uc25sb8zSmRacNkL4GN--BTwHLQSRNjEZzKxZnT4vbW7EJoKCIrie6NNG_2zbW667qt4-ka3.u2SPU3cYSIVnAhhR?canPlayFromShare=true&from=my_recording&startTime=1673974967000&componentName=rec-play&originRequestUrl=https%3A%2F%2Funi-frankfurt.zoom.us%2Frec%2Fshare%2F5apRTpBB_q7ACEvMAhBuKtbw0aQz1cfI3F3nPsriyZzh-uGzV2SnBmPchw5ZiOoN.wtUY44GXTVJgsuPZ%3FstartTime%3D1673974967000%2520Kenncode%3A%2520pT%2691%23tY)  |
 | 3    | Advanced visualizations with seaborn, modeling with scikit-learn | 24.01.2023 | 18:00 - 20:00 | Link will follow here                                                                      |
 
 We want you to *make your hands dirty* --- that means we want you to code!
