@@ -47,7 +47,7 @@ We aim to adhere to the following schedule:
 |-------------|-----------------------|-------------|-------------|-------------|
 | 1    | Course Introduction and Fundamentals of Python                   | 10.01.2023 | 18:00 - 20:00 | [Link](https://drive.google.com/file/d/12Sfd1IN9kaVdKMTp26Z9_FpJ9Ax5grX3/view) |
 | 2    | Data wrangling and visualizations using pandas and matplotlib    | 17.01.2023 | 18:00 - 20:00 | [Link](https://drive.google.com/file/d/187ub3XFDnybFetRdgG4E6Ry1oter71NP/view)  |
-| 3    | Advanced visualizations with seaborn, modeling with scikit-learn | 24.01.2023 | 18:00 - 20:00 | Link will follow here                                                                      |
+| 3    | Advanced visualizations with seaborn, modeling with scikit-learn | 24.01.2023 | 18:00 - 20:00 | [Link](https://uni-frankfurt.zoom.us/rec/share/zG_TkHOP93CvDoscj27dDNmxkO3T2ziAGROvsBaQ_l-7OZqLp5GQ8PMnNZQWuyo.6EDIs7DncbagFoja?startTime=1674579897000) |
 
 We want you to *make your hands dirty* --- that means we want you to code!
 Just following along fancy slides won't magically transfer the skill of coding to you.
