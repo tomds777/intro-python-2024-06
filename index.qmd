@@ -38,16 +38,16 @@ This course introduces:
 
 ## Course Organization and Schedule
 
-We will meet on three Tuesday evenings from *6:00 - 8:00 p.m.* Please access the course via [this Zoom link](https://uni-frankfurt.zoom.us/j/62782683393?pwd=Vms4WnhOMCtDU3E1Z1NnSVcvclM2UT09) and the following password: 611939.
+We will meet on July 28, 2023. 
 
 This workshop alternates between lecture-style presentations and application exercises.
 We aim to adhere to the following schedule:
 
-| Part | Content                                                          | Date       | Time          | Video Recording                                                                            |
+| Part | Content                                                          | Date       | Time                                                                                    
 |-------------|-----------------------|-------------|-------------|-------------|
-| 1    | Course Introduction and Fundamentals of Python                   | 10.01.2023 | 18:00 - 20:00 | [Link](https://drive.google.com/file/d/12Sfd1IN9kaVdKMTp26Z9_FpJ9Ax5grX3/view) |
-| 2    | Data wrangling and visualizations using pandas and matplotlib    | 17.01.2023 | 18:00 - 20:00 | [Link](https://drive.google.com/file/d/187ub3XFDnybFetRdgG4E6Ry1oter71NP/view)  |
-| 3    | Advanced visualizations with seaborn, modeling with scikit-learn | 24.01.2023 | 18:00 - 20:00 | [Link](https://uni-frankfurt.zoom.us/rec/share/zG_TkHOP93CvDoscj27dDNmxkO3T2ziAGROvsBaQ_l-7OZqLp5GQ8PMnNZQWuyo.6EDIs7DncbagFoja?startTime=1674579897000) |
+| 1    | Course Introduction and Fundamentals of Python                   | 10.01.2023 | 18:00 - 20:00  
+| 2    | Data wrangling and visualizations using pandas and matplotlib    | 17.01.2023 | 18:00 - 20:00  
+| 3    | Advanced visualizations with seaborn, modeling with scikit-learn | 24.01.2023 | 18:00 - 20:00 
 
 We want you to *make your hands dirty* --- that means we want you to code!
 Just following along fancy slides won't magically transfer the skill of coding to you.
@@ -65,10 +65,10 @@ ITrainers
 
 Feel free to reach out to us by e-mail if you have any questions before, during, or after the course:
 
--   **Jan Zacharias**, Research Associate and Ph.D.
-    Student in Information Systems and Information Management, [send me an email](mailto:zacharias@wiwi.uni-frankfurt.de), [LinkedIn](https://www.linkedin.com/in/jan-zacharias-313322177)
+-   **Thilo Kraft**, Ph.D.
+    Student in Quantitative Marketing, [send me an email](mailto:kraft.thilo.g@gmail.com)
 
--   **Tom Schwitzkowski**, Member of the Executive Board at TechAcademy e.V., Master's Student in Business Informatics, [send me an email](mailto:tom.schwitzkowski@tech-academy.io), [LinkedIn](https://www.linkedin.com/in/tom-schwitzkowski/)
+-   **Jan Bischoff**, Course Designer and Teacher at TechAcademy e.V., Business and Economics Student, [send me an email](mailto:jan.bischoff@tech-academy.io)
 
 <!-- ## License {.unnumbered} -->
 
