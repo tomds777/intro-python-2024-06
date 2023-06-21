@@ -4,11 +4,12 @@ project:
 
 book:
   title: "Introduction to Data Science with Python"
-  author: "Jan Zacharias & Tom Schwitzkowski"
-  date: "January 10, 2023"
+  author: "Thilo Kraft & Jan Bischoff"
+  date: "July 28, 2023"
   # description: "A one-day workshop introducing you to the Python programming language for Data Science"
   chapters:
     - index.qmd
+    - 00-introduction-to-python.qmd
     - 01-fundamentals-of-python.qmd
     - 02-data-wrangling-visualization.qmd
     - 03-advanced-visualization-modeling.qmd
