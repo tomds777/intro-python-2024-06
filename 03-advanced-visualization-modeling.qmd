@@ -10,7 +10,7 @@ And maybe the most exciting part: advanced visualization with `seaborn` and some
 
 ::: slides
 ```{r echo=FALSE}
-xfun::embed_file("slides/Lecture_3_Intro_Python_2023-08-27.pdf", text = "Slides")
+xfun::embed_file("slides/Lecture_3.pdf", text = "Slides")
 ```
 :::
 :::
