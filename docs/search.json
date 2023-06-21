@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Introduction to Data Science with Python",
     "section": "",
-    "text": "Welcome\nWelcome to the course website for\nIntroduction to Data Science with Python\noffered for GRADE Brain and other GRADE Centers at Goethe University in January 2023. This website serves as the central repository for all course materials. Here, you will find all slides, lecture materials, and links to your online development environment."
+    "text": "Welcome\nWelcome to the course website for\nIntroduction to Data Science with Python\noffered for GRADE Brain and other GRADE Centers at Goethe University in July 2023. This website serves as the central repository for all course materials. Here, you will find all slides, lecture materials, and links to your online development environment."
   },
   {
     "objectID": "index.html#course-objective",
@@ -25,7 +25,7 @@
     "href": "index.html#course-organization-and-schedule",
     "title": "Introduction to Data Science with Python",
     "section": "Course Organization and Schedule",
-    "text": "Course Organization and Schedule\nWe will meet on three Tuesday evenings from 6:00 - 8:00 p.m. Please access the course via this Zoom link and the following password: 611939.\nThis workshop alternates between lecture-style presentations and application exercises. We aim to adhere to the following schedule:\n\n\n\nPart\nContent\nDate\nTime\nVideo Recording\n\n\n\n\n1\nCourse Introduction and Fundamentals of Python\n10.01.2023\n18:00 - 20:00\nLink\n\n\n2\nData wrangling and visualizations using pandas and matplotlib\n17.01.2023\n18:00 - 20:00\nLink\n\n\n3\nAdvanced visualizations with seaborn, modeling with scikit-learn\n24.01.2023\n18:00 - 20:00\nLink\n\n\n\nWe want you to make your hands dirty — that means we want you to code! Just following along fancy slides won’t magically transfer the skill of coding to you. But you actively engaging with the course content in your development environment will more likely do just that.\nThat’s why we need you to prepare accordingly: Please ensure that you have access to Google Colab before the course. We will use Google Colab for the coding parts, such that we can use Python without (sometimes time-consuming) pre-configuration or installation on your machine. To use Google colab, you need a Google account (same account which is used for Gmail, YouTube, etc.)\nIf you have any questions, please reach out to one of us through the e-mail addresses on the bottom of this page.\nITrainers\n\nFeel free to reach out to us by e-mail if you have any questions before, during, or after the course:\n\nJan Zacharias, Research Associate and Ph.D. Student in Information Systems and Information Management, send me an email, LinkedIn\nTom Schwitzkowski, Member of the Executive Board at TechAcademy e.V., Master’s Student in Business Informatics, send me an email, LinkedIn"
+    "text": "Course Organization and Schedule\nWe will meet on July 28, 2023.\nThis workshop alternates between lecture-style presentations and application exercises. We aim to adhere to the following schedule:\n\n\n\n\n\n\n\n\n\n\nPart\nContent\nDate\nTime\n\n\n\n\n\n1\nCourse Introduction and Fundamentals of Python\n10.01.2023\n18:00 - 20:00\n\n\n\n2\nData wrangling and visualizations using pandas and matplotlib\n17.01.2023\n18:00 - 20:00\n\n\n\n3\nAdvanced visualizations with seaborn, modeling with scikit-learn\n24.01.2023\n18:00 - 20:00\n\n\n\n\nWe want you to make your hands dirty — that means we want you to code! Just following along fancy slides won’t magically transfer the skill of coding to you. But you actively engaging with the course content in your development environment will more likely do just that.\nThat’s why we need you to prepare accordingly: Please ensure that you have access to Google Colab before the course. We will use Google Colab for the coding parts, such that we can use Python without (sometimes time-consuming) pre-configuration or installation on your machine. To use Google colab, you need a Google account (same account which is used for Gmail, YouTube, etc.)\nIf you have any questions, please reach out to one of us through the e-mail addresses on the bottom of this page.\nITrainers\n\nFeel free to reach out to us by e-mail if you have any questions before, during, or after the course:\n\nThilo Kraft, Ph.D. Student in Quantitative Marketing, send me an email\nJan Bischoff, Course Designer and Teacher at TechAcademy e.V., Business and Economics Student, send me an email"
   },
   {
     "objectID": "index.html#acknowledements",
@@ -37,44 +37,44 @@
   {
     "objectID": "01-fundamentals-of-python.html#lecture-notes",
     "href": "01-fundamentals-of-python.html#lecture-notes",
-    "title": "1  Fundamentals of Python",
-    "section": "1.1 Lecture Notes",
-    "text": "1.1 Lecture Notes\n\nPart 1: Fundamentals of Python\n\n\n\nSlides"
+    "title": "2  Fundamentals of Python",
+    "section": "2.1 Lecture Notes",
+    "text": "2.1 Lecture Notes\n\nPart 1: Fundamentals of Python\n\n\n\nSlides"
   },
   {
     "objectID": "01-fundamentals-of-python.html#application-exercise-during-the-course",
     "href": "01-fundamentals-of-python.html#application-exercise-during-the-course",
-    "title": "1  Fundamentals of Python",
-    "section": "1.2 Application Exercise During the Course",
-    "text": "1.2 Application Exercise During the Course\n\nVectors, Loops, and Functions\nPlease open Google Colab for this exercise through the following link. After opening the Google Colab instance, save a copy to your own Google drive. That’s how you will retain your copy with your own code.\n\nExercise Template on Google Colab"
+    "title": "2  Fundamentals of Python",
+    "section": "2.2 Application Exercise During the Course",
+    "text": "2.2 Application Exercise During the Course\n\nVectors, Loops, and Functions\nPlease open Google Colab for this exercise through the following link. After opening the Google Colab instance, save a copy to your own Google drive. That’s how you will retain your copy with your own code.\n\nExercise Template on Google Colab"
   },
   {
     "objectID": "01-fundamentals-of-python.html#additional-application-exercises-for-self-study",
     "href": "01-fundamentals-of-python.html#additional-application-exercises-for-self-study",
-    "title": "1  Fundamentals of Python",
-    "section": "1.3 Additional Application Exercises for Self-Study",
-    "text": "1.3 Additional Application Exercises for Self-Study\nReady for some more hands-on exercises? Here you go — four coding challenges that you can solve after our workshop.\n\nMore Advanced Loops, Strings, and Lists\n\nExercise Template on Google Colab\n\n\n\n\nSolution"
+    "title": "2  Fundamentals of Python",
+    "section": "2.3 Additional Application Exercises for Self-Study",
+    "text": "2.3 Additional Application Exercises for Self-Study\nReady for some more hands-on exercises? Here you go — four coding challenges that you can solve after our workshop.\n\nMore Advanced Loops, Strings, and Lists\n\nExercise Template on Google Colab\n\n\n\n\nSolution"
   },
   {
     "objectID": "02-data-wrangling-visualization.html#lecture-notes",
     "href": "02-data-wrangling-visualization.html#lecture-notes",
-    "title": "2  Data Wrangling & Visualization",
-    "section": "2.1 Lecture Notes",
-    "text": "2.1 Lecture Notes\n\nPart 2: Libraries, Data Frames, Data Wrangling, and Visualization\n\n\n\nSlides"
+    "title": "3  Data Wrangling & Visualization",
+    "section": "3.1 Lecture Notes",
+    "text": "3.1 Lecture Notes\n\nPart 2: Libraries, Data Frames, Data Wrangling, and Visualization\n\n\n\nSlides"
   },
   {
     "objectID": "02-data-wrangling-visualization.html#application-exercise-during-the-course",
     "href": "02-data-wrangling-visualization.html#application-exercise-during-the-course",
-    "title": "2  Data Wrangling & Visualization",
-    "section": "2.2 Application Exercise During the Course",
-    "text": "2.2 Application Exercise During the Course\n\nData Wrangling and Plotting\nPlease open Google Colab for this exercise through the following link. After opening the Google Colab instance, save a copy to your own Google drive. That’s how you will retain your copy with your own code.\n\nExercise Template on Google Colab"
+    "title": "3  Data Wrangling & Visualization",
+    "section": "3.2 Application Exercise During the Course",
+    "text": "3.2 Application Exercise During the Course\n\nData Wrangling and Plotting\nPlease open Google Colab for this exercise through the following link. After opening the Google Colab instance, save a copy to your own Google drive. That’s how you will retain your copy with your own code.\n\nExercise Template on Google Colab"
   },
   {
     "objectID": "02-data-wrangling-visualization.html#additional-application-exercises-for-self-study",
     "href": "02-data-wrangling-visualization.html#additional-application-exercises-for-self-study",
-    "title": "2  Data Wrangling & Visualization",
-    "section": "2.3 Additional Application Exercises for Self-Study",
-    "text": "2.3 Additional Application Exercises for Self-Study\nExcited for more data wrangling and visualization? Check out the following additional exercises that let you visualize AirBnB data from Berlin.\n\nData Wrangling and Plotting with AirBnB data\n\nExercise Template on Google Colab\n\n\n\n\nSolution"
+    "title": "3  Data Wrangling & Visualization",
+    "section": "3.3 Additional Application Exercises for Self-Study",
+    "text": "3.3 Additional Application Exercises for Self-Study\nExcited for more data wrangling and visualization? Check out the following additional exercises that let you visualize AirBnB data from Berlin.\n\nData Wrangling and Plotting with AirBnB data\n\nExercise Template on Google Colab\n\n\n\n\nSolution"
   },
   {
     "objectID": "03-advanced-visualization-modeling.html#lecture-notes",
@@ -102,6 +102,13 @@
     "href": "99-next-steps.html",
     "title": "Next Steps",
     "section": "",
-    "text": "Thanks for attending our course Introduction to Data Science with Python. We hope you enjoyed this glimpse into one of the most widely used programming languages for Data Science, and many applications beyond.\nWe would love to hear your feedback on this course and the course format. If you would like to send additional feedback, please send a short email to Lukas Jürgensmeier (send me an email).\nThanks again for your time! We hope that you will find your newly acquired skills helpful in future projects."
+    "text": "Thanks for attending our course Introduction to Data Science with Python. We hope you enjoyed this glimpse into one of the most widely used programming languages for Data Science, and many applications beyond.\nWe would love to hear your feedback on this course and the course format. If you would like to send additional feedback, please send a short email to Jan Bischoff (send me an email).\nThanks again for your time! We hope that you will find your newly acquired skills helpful in future projects."
+  },
+  {
+    "objectID": "00-introduction-to-python.html#lecture-notes",
+    "href": "00-introduction-to-python.html#lecture-notes",
+    "title": "1  Introduction of Python",
+    "section": "1.1 Lecture Notes",
+    "text": "1.1 Lecture Notes\n\nPart 1: Introduction to Python\n\n\n\nSlides"
   }
 ]

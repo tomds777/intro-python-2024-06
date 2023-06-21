@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.2.335">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Jan Zacharias &amp; Tom Schwitzkowski">
-<meta name="dcterms.date" content="2023-01-10">
+<meta name="author" content="Thilo Kraft &amp; Jan Bischoff">
+<meta name="dcterms.date" content="2023-07-28">
 
 <title>Introduction to Data Science with Python</title>
 <style>
@@ -32,7 +32,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./01-fundamentals-of-python.html" rel="next">
+<link href="./00-introduction-to-python.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -103,17 +103,22 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./01-fundamentals-of-python.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Fundamentals of Python</span></a>
+  <a href="./00-introduction-to-python.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction of Python</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02-data-wrangling-visualization.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Data Wrangling &amp; Visualization</span></a>
+  <a href="./01-fundamentals-of-python.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Fundamentals of Python</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03-advanced-visualization-modeling.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Advanced Vizualization &amp; Modeling</span></a>
+  <a href="./02-data-wrangling-visualization.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Data Wrangling &amp; Visualization</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03-advanced-visualization-modeling.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Advanced Vizualization &amp; Modeling</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -155,14 +160,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Jan Zacharias &amp; Tom Schwitzkowski </p>
+             <p>Thilo Kraft &amp; Jan Bischoff </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 10, 2023</p>
+      <p class="date">July 28, 2023</p>
     </div>
   </div>
   
@@ -176,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
 <h1 class="unnumbered">Welcome</h1>
 <p>Welcome to the course website for</p>
 <p><strong>Introduction to Data Science with Python</strong></p>
-<p>offered for GRADE Brain and other GRADE Centers at Goethe University in January 2023. This website serves as the central repository for all course materials. Here, you will find all slides, lecture materials, and links to your online development environment.</p>
+<p>offered for GRADE Brain and other GRADE Centers at Goethe University in July 2023. This website serves as the central repository for all course materials. Here, you will find all slides, lecture materials, and links to your online development environment.</p>
 <section id="course-objective" class="level2">
 <h2 class="anchored" data-anchor-id="course-objective">Course Objective</h2>
 <p>Data analysis plays a critical role in many academic disciplines, and the Python programming language has become one of the standard tools within the Data Science community. This course will introduce programming with Python and how to use it for data analysis. After successfully completing this course, you will be able to understand the fundamentals of the Python programming language. This skill set includes basic data analysis by data wrangling, data visualization, and implementing simple statistical models in Python.</p>
@@ -195,16 +200,23 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="course-organization-and-schedule" class="level2">
 <h2 class="anchored" data-anchor-id="course-organization-and-schedule">Course Organization and Schedule</h2>
-<p>We will meet on three Tuesday evenings from <em>6:00 - 8:00 p.m.</em> Please access the course via <a href="https://uni-frankfurt.zoom.us/j/62782683393?pwd=Vms4WnhOMCtDU3E1Z1NnSVcvclM2UT09">this Zoom link</a> and the following password: 611939.</p>
+<p>We will meet on July 28, 2023.</p>
 <p>This workshop alternates between lecture-style presentations and application exercises. We aim to adhere to the following schedule:</p>
 <table class="table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 30%">
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 17%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Part</th>
 <th>Content</th>
 <th>Date</th>
 <th>Time</th>
-<th>Video Recording</th>
+<th></th>
 </tr>
 </thead>
 <tbody>
@@ -213,21 +225,21 @@ ul.task-list li input[type="checkbox"] {
 <td>Course Introduction and Fundamentals of Python</td>
 <td>10.01.2023</td>
 <td>18:00 - 20:00</td>
-<td><a href="https://drive.google.com/file/d/12Sfd1IN9kaVdKMTp26Z9_FpJ9Ax5grX3/view">Link</a></td>
+<td></td>
 </tr>
 <tr class="even">
 <td>2</td>
 <td>Data wrangling and visualizations using pandas and matplotlib</td>
 <td>17.01.2023</td>
 <td>18:00 - 20:00</td>
-<td><a href="https://drive.google.com/file/d/187ub3XFDnybFetRdgG4E6Ry1oter71NP/view">Link</a></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>3</td>
 <td>Advanced visualizations with seaborn, modeling with scikit-learn</td>
 <td>24.01.2023</td>
 <td>18:00 - 20:00</td>
-<td><a href="https://uni-frankfurt.zoom.us/rec/share/zG_TkHOP93CvDoscj27dDNmxkO3T2ziAGROvsBaQ_l-7OZqLp5GQ8PMnNZQWuyo.6EDIs7DncbagFoja?startTime=1674579897000">Link</a></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -238,8 +250,8 @@ ul.task-list li input[type="checkbox"] {
 <!-- Include a short biography for all teachers and include their email and personal websites -->
 <p>Feel free to reach out to us by e-mail if you have any questions before, during, or after the course:</p>
 <ul>
-<li><p><strong>Jan Zacharias</strong>, Research Associate and Ph.D. Student in Information Systems and Information Management, <a href="mailto:zacharias@wiwi.uni-frankfurt.de">send me an email</a>, <a href="https://www.linkedin.com/in/jan-zacharias-313322177">LinkedIn</a></p></li>
-<li><p><strong>Tom Schwitzkowski</strong>, Member of the Executive Board at TechAcademy e.V., Master’s Student in Business Informatics, <a href="mailto:tom.schwitzkowski@tech-academy.io">send me an email</a>, <a href="https://www.linkedin.com/in/tom-schwitzkowski/">LinkedIn</a></p></li>
+<li><p><strong>Thilo Kraft</strong>, Ph.D. Student in Quantitative Marketing, <a href="mailto:kraft.thilo.g@gmail.com">send me an email</a></p></li>
+<li><p><strong>Jan Bischoff</strong>, Course Designer and Teacher at TechAcademy e.V., Business and Economics Student, <a href="mailto:jan.bischoff@tech-academy.io">send me an email</a></p></li>
 </ul>
 <!-- ## License {.unnumbered} -->
 <!-- <!-- Describe the course license here. More information on licenses: https://opensource.org/licenses -->
@@ -393,8 +405,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./01-fundamentals-of-python.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Fundamentals of Python</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./00-introduction-to-python.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction of Python</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
