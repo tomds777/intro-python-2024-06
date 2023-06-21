@@ -10,7 +10,7 @@ Welcome to the course website for
 
 **Introduction to Data Science with Python**
 
-offered for GRADE Brain and other GRADE Centers at Goethe University in January 2023.
+offered for GRADE Brain and other GRADE Centers at Goethe University in July 2023.
 This website serves as the central repository for all course materials.
 Here, you will find all slides, lecture materials, and links to your online development environment.
 
