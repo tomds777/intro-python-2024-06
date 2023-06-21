@@ -20,7 +20,7 @@ We will provide you with a use case to show you what you will learn by the end o
 ::: slides
 
 ```{r echo=FALSE}
-xfun::embed_file("slides/Lecture_0_Intro_Python_2023-07-28.pdf", text = "Slides")
+xfun::embed_file("slides/Lecture_0_Intro_Python.pdf", text = "Slides")
 ```
 :::
 :::
