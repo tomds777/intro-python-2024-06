@@ -8,11 +8,11 @@ This second part of the course covers two external libraries: `numpy` and `panda
 ## Lecture Notes
 
 ::: slide-deck
-**Part 2: Libraries, Data Frames, Data Wrangling, and Visualization**
+**Part 3: Libraries, Data Frames, Data Wrangling, and Visualization**
 
 ::: slides
 ```{r echo=FALSE}
-xfun::embed_file("slides/Lecture_2_Intro_Python.pdf", text = "Slides")
+xfun::embed_file("slides/Lecture_3_Intro_Python.pdf", text = "Slides")
 ```
 :::
 :::

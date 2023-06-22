@@ -6,11 +6,11 @@ And maybe the most exciting part: advanced visualization with `seaborn` and some
 ## Lecture Notes
 
 ::: slide-deck
-**Part 3: Advanced Visualization and Modeling**
+**Part 4: Advanced Visualization and Modeling**
 
 ::: slides
 ```{r echo=FALSE}
-xfun::embed_file("slides/Lecture_3.pdf", text = "Slides")
+xfun::embed_file("slides/Lecture_4_Intro_Python.pdf", text = "Slides")
 ```
 :::
 :::

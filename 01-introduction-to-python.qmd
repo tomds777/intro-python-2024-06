@@ -9,7 +9,7 @@ xfun::pkg_load2(c("htmltools", "mime"))
 
 Welcome to this course and let's dive into Python!
 In this introduction, we will give an overview about what Python is and why it is useful to learn.
-We will provide you with a use case to show you what you will learn by the end of the course. So stay tuned!
+We will provide you with a case study to show you what you will learn by the end of the course. So stay tuned!
 
 
 ## Lecture Notes
@@ -20,7 +20,7 @@ We will provide you with a use case to show you what you will learn by the end o
 ::: slides
 
 ```{r echo=FALSE}
-xfun::embed_file("slides/Lecture_0_Intro_Python.pdf", text = "Slides")
+xfun::embed_file("slides/Lecture_1_Intro_Python.pdf", text = "Slides")
 ```
 :::
 :::

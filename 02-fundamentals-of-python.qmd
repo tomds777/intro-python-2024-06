@@ -15,12 +15,12 @@ After you got up to speed, we will have an introduction to Jupyter Notebooks ---
 ## Lecture Notes
 
 ::: slide-deck
-**Part 1: Fundamentals of Python**
+**Part 2: Fundamentals of Python**
 
 ::: slides
 
 ```{r echo=FALSE}
-xfun::embed_file("slides/Lecture_1_Intro_Python.pdf", text = "Slides")
+xfun::embed_file("slides/Lecture_2_Intro_Python.pdf", text = "Slides")
 ```
 :::
 :::

@@ -45,9 +45,10 @@ We aim to adhere to the following schedule:
 
 | Part | Content                                                          | Date       | Time                                                                                    
 |-------------|-----------------------|-------------|-------------|-------------|
-| 1    | Course Introduction and Fundamentals of Python                   | 10.01.2023 | 18:00 - 20:00  
-| 2    | Data wrangling and visualizations using pandas and matplotlib    | 17.01.2023 | 18:00 - 20:00  
-| 3    | Advanced visualizations with seaborn, modeling with scikit-learn | 24.01.2023 | 18:00 - 20:00 
+| 1    | Course Introduction and Case Study                               | 28.07.2023 | 09:00 - 10:00  
+| 2    | Fundamentals of Python                                           | 28.07.2023 | 10:00 - 12:00  
+| 3    | Data wrangling and visualizations using pandas and matplotlib    | 28.07.2023 | 13:00 - 15:00  
+| 4    | Advanced visualizations with seaborn, modeling with scikit-learn | 28.07.2023 | 15:00 - 17:00 
 
 We want you to *make your hands dirty* --- that means we want you to code!
 Just following along fancy slides won't magically transfer the skill of coding to you.

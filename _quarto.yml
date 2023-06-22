@@ -9,17 +9,17 @@ book:
   # description: "A one-day workshop introducing you to the Python programming language for Data Science"
   chapters:
     - index.qmd
-    - 00-introduction-to-python.qmd
-    - 01-fundamentals-of-python.qmd
-    - 02-data-wrangling-visualization.qmd
-    - 03-advanced-visualization-modeling.qmd
+    - 01-introduction-to-python.qmd
+    - 02-fundamentals-of-python.qmd
+    - 03-data-wrangling-visualization.qmd
+    - 04-advanced-visualization-modeling.qmd
     - 99-next-steps.qmd
   # logo: files/logo.png
   # sidebar:
   #   tools:
   #     - icon: box-arrow-up-right
   #       href: https://lukas-juergensmeier.com/
-github-repo: lukas-jue/intro-to-python-2023-01
+github-repo: Jan23Bischoff/Python-SS-2023
 
 bibliography: references.bib
 
