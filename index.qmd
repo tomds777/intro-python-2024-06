@@ -46,9 +46,11 @@ We aim to adhere to the following schedule:
 | Part | Content                                                          | Date       | Time                                                                                    
 |-------------|-----------------------|-------------|-------------|-------------|
 | 1    | Course Introduction and Case Study                               | 28.07.2023 | 09:00 - 10:00  
-| 2    | Fundamentals of Python                                           | 28.07.2023 | 10:00 - 12:00  
+| 2    | Fundamentals of Python                                           | 28.07.2023 | 10:00 - 12:00
 | 3    | Data wrangling and visualizations using pandas and matplotlib    | 28.07.2023 | 13:00 - 15:00  
-| 4    | Advanced visualizations with seaborn, modeling with scikit-learn | 28.07.2023 | 15:00 - 17:00 
+| 4    | Advanced visualizations with seaborn, modeling with scikit-learn | 28.07.2023 | 15:00 - 17:00
+
+There will be a lunch break after the second part of approximately 60 minutes and additional small breaks after each part.
 
 We want you to *make your hands dirty* --- that means we want you to code!
 Just following along fancy slides won't magically transfer the skill of coding to you.
@@ -82,5 +84,8 @@ Feel free to reach out to us by e-mail if you have any questions before, during,
 ## Acknowledements {.unnumbered}
 
 <!-- Include any acknowledgements for the course here, especially if you relied on some materials -->
+We gratefully acknowledge funding through the project [DigiTeLL](https://www.uni-frankfurt.de/106206707/Projekt_DigiTeLL) at Goethe University Frankfurt (partnership Coding Intro).
 
 Thanks to Felix Schneider ([Github](https://github.com/flxmschneider)), who initially developed this course and granted permission adapt and use the course materials.
+
+The case study used as motivation is built upon material from [datasciencebox.org](https://datasciencebox.org/) by Mine Çetinkaya-Rundel.
