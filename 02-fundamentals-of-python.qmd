@@ -36,7 +36,7 @@ After opening the Google Colab instance, save a copy to your own Google drive.
 That's how you will retain your copy with your own code.
 
 ::: source
-[Exercise Template on Google Colab](https://colab.research.google.com/drive/1rGQDSFMYzjI6dRbyYLT6egskIhAXYdVh?usp=sharing){target="_blank"}
+[Exercise Template on Google Colab](https://colab.research.google.com/github/Jan23Bischoff/Python-SS-2023/blob/main/Python%20Introduction/Part%202%20Fundamentals%20of%20Python/Exercises_Lecture2.ipynb){target="_blank"}
 :::
 
 <!-- Note: Comment the solutions if you don't want to show them. -->
@@ -58,14 +58,14 @@ Ready for some more hands-on exercises? Here you go --- four coding challenges t
 
 
 ::: source
-[Exercise Template on Google Colab](https://colab.research.google.com/drive/1Gf3VBRy1oeqFYkPjtbfrP61yZzHw1r9-?usp=sharing){target="_blank"} 
+[Exercise Template on Google Colab](https://colab.research.google.com/github/Jan23Bischoff/Python-SS-2023/blob/main/Python%20Introduction/Part%202%20Fundamentals%20of%20Python/Homework_Lecture_2.ipynb){target="_blank"} 
 :::
 
 <!-- Note: Comment the solutions if you don't want to show them. -->
 <!-- After the course unit, you can uncomment them -->
 
 ::: solutionlink
-[Solution](https://colab.research.google.com/drive/10VVhlV23MHX5-awtUUCBdeSXkAt7DdQ2?usp=sharing){target="_blank"}
+[Solution](https://colab.research.google.com/github/Jan23Bischoff/Python-SS-2023/blob/main/Python%20Introduction/Part%202%20Fundamentals%20of%20Python/Solutions_Homework_2.ipynb){target="_blank"}
 :::
 :::
 
