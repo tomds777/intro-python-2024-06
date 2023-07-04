@@ -1,4 +1,4 @@
-# Advanced Vizualization & Modeling
+# Advanced Visualization & Modeling
 
 Two out of three --- done! Now, let's get to the last part of the course.
 And maybe the most exciting part: advanced visualization with `seaborn` and some fancy machine learning modeling with `scikit-learn` (we admit, it's just a regression --- but the neural networks or gradient boosting algorithms are just a couple of code lines away).

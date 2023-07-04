@@ -114,21 +114,21 @@
   {
     "objectID": "04-advanced-visualization-modeling.html#lecture-notes",
     "href": "04-advanced-visualization-modeling.html#lecture-notes",
-    "title": "4  Advanced Vizualization & Modeling",
+    "title": "4  Advanced Visualization & Modeling",
     "section": "4.1 Lecture Notes",
     "text": "4.1 Lecture Notes\n\nPart 4: Advanced Visualization and Modeling\n\n\n\nSlides"
   },
   {
     "objectID": "04-advanced-visualization-modeling.html#application-exercise-during-the-course",
     "href": "04-advanced-visualization-modeling.html#application-exercise-during-the-course",
-    "title": "4  Advanced Vizualization & Modeling",
+    "title": "4  Advanced Visualization & Modeling",
     "section": "4.2 Application Exercise During the Course",
     "text": "4.2 Application Exercise During the Course\n\nVisualizing Weather Data and Predicting Apartment Prices\nPlease open Google Colab for this exercise through the following link. After opening the Google Colab instance, save a copy to your own Google drive. That’s how you will retain your copy with your own code.\n\nExercise Template on Google Colab"
   },
   {
     "objectID": "04-advanced-visualization-modeling.html#additional-application-exercises-for-self-study",
     "href": "04-advanced-visualization-modeling.html#additional-application-exercises-for-self-study",
-    "title": "4  Advanced Vizualization & Modeling",
+    "title": "4  Advanced Visualization & Modeling",
     "section": "4.3 Additional Application Exercises for Self-Study",
     "text": "4.3 Additional Application Exercises for Self-Study\nExcited for more data wrangling and visualization? Check out the following additional exercises that let you visualize AirBnB data from Berlin.\n\nModeling with AirBnB data\n\nExercise Template on Google Colab\n\n\n\n\nSolution"
   },
