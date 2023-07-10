@@ -26,7 +26,7 @@ After opening the Google Colab instance, save a copy to your own Google drive.
 That's how you will retain your copy with your own code.
 
 ::: source
-[Exercise Template on Google Colab](https://colab.research.google.com/drive/1bu0ey4tJbcDTgrzYyhqhHPmbGJf778bQ?usp=sharing){target="_blank"}
+[Exercise Template on Google Colab](https://colab.research.google.com/github/coding-intro/intro-python-2023-07/blob/main/notebooks/Part%204%20Advanced%20Visualizations/Exercises_Lecture_4.ipynb){target="_blank"}
 :::
 
 <!-- Note: Comment the solutions if you don't want to show them. -->
@@ -49,14 +49,14 @@ Check out the following additional exercises that let you visualize AirBnB data 
 
 
 ::: source
-[Exercise Template on Google Colab](https://colab.research.google.com/drive/1EKv0CCRQ_W7GkJPJG_enI3k97HIxoMcY?usp=sharing){target="_blank"} 
+[Exercise Template on Google Colab](https://colab.research.google.com/github/coding-intro/intro-python-2023-07/blob/main/notebooks/Part%204%20Advanced%20Visualizations/GroupExercise_Lecture_4.ipynb){target="_blank"} 
 :::
 
 <!-- Note: Comment the solutions if you don't want to show them. -->
 <!-- After the course unit, you can uncomment them -->
 
 ::: solutionlink
-[Solution](https://colab.research.google.com/drive/1Z8U0FdTGLlldL-EjfF2QdAd2wOfvpT_I?usp=sharing){target="_blank"}
+[Solution](https://colab.research.google.com/github/coding-intro/intro-python-2023-07/blob/main/notebooks/Part%204%20Advanced%20Visualizations/GroupExercise_Lecture_4_Solutions.ipynb){target="_blank"}
 :::
 :::
 

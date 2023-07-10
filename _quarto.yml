@@ -19,9 +19,9 @@ book:
   #   tools:
   #     - icon: box-arrow-up-right
   #       href: https://lukas-juergensmeier.com/
-github-repo: Jan23Bischoff/Python-SS-2023
+github-repo: coding-intro/intro-python-2023-07
 
-bibliography: references.bib
+#bibliography: references.bib
 
 format:
   html:
