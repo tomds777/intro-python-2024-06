@@ -32,7 +32,7 @@ No prior coding experience is needed. This course is a beginner-friendly course.
 
 We want you to make your hands dirty — that means we want you to code! Just following along fancy slides won’t magically transfer the skill of coding to you. But you actively engaging with the course content in your development environment will more likely do just that.
 That’s why we need you to prepare accordingly: Please ensure that you have access to [Google Colab](https://colab.research.google.com/) before the course. We will use Google Colab for the coding parts, such that we can use Python without (sometimes time-consuming) pre-configuration or installation on your machine. To use Google colab, you need a Google account (same account which is used for Gmail, YouTube, etc.)
-If you have any questions, please reach out to one of us through the e-mail addresses on the bottom of this page.
+If you have any questions, please reach out to one of us through the e-mail addresses indicated on the course website.
 
 # Trainers
 
