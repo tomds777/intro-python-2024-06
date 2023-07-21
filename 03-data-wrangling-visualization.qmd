@@ -51,7 +51,7 @@ Check out the following additional exercises that let you visualize AirBnB data 
 
 
 ::: source
-[Exercise Template on Google Colab](https://colab.research.google.com/github/coding-intro/intro-python-2023-07/blob/main/notebooks/Part%202%20Fundamentals%20of%20Python/Homework_Lecture_2.ipynb){target="_blank"} 
+[Exercise Template on Google Colab](https://colab.research.google.com/github/coding-intro/intro-python-2023-07/blob/main/notebooks/Part%203%20Data%20Wrangling%20and%20Visualizations/GroupExercise_Lecture_3.ipynb){target="_blank"} 
 :::
 
 <!-- Note: Comment the solutions if you don't want to show them. -->
