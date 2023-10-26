@@ -5,7 +5,7 @@ project:
 book:
   title: "Introduction to Data Science with Python"
   author: "Thilo Kraft & Jan Bischoff"
-  date: "July 28, 2023"
+  date: "October 26, 2023"
   # description: "A one-day workshop introducing you to the Python programming language for Data Science"
   chapters:
     - index.qmd
@@ -19,7 +19,7 @@ book:
   #   tools:
   #     - icon: box-arrow-up-right
   #       href: https://lukas-juergensmeier.com/
-github-repo: coding-intro/intro-python-2023-07
+github-repo: coding-intro/intro-python-2023-11
 
 #bibliography: references.bib
 
