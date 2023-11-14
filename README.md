@@ -37,4 +37,4 @@ If you have any questions, please reach out to one of us through the e-mail addr
 # Trainers
 
 -   Thilo Kraft, Ph.D. Student in Quantitative Marketing
--   Jan Bischoff, Business and Economics Student, R/Python Teacher and Course Designer at TechAcademy e.V.
+-   Jan Bischoff, Master Student in Marketing Analytics, R/Python Teacher and Course Designer at TechAcademy e.V.
