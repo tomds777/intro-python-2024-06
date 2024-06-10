@@ -38,3 +38,4 @@ If you have any questions, please reach out to one of us through the e-mail addr
 
 -   Thilo Kraft, Ph.D. Student in Quantitative Marketing
 -   Jan Bischoff, Master Student in Marketing Analytics, R/Python Teacher and Course Designer at TechAcademy e.V.
+-   Tomas Dutra Schmidt, Ph.D., Student in Economics at the GSEFM
